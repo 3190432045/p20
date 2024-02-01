@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>mxToolKit: mxEvent类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">mxToolKit
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classmx_event.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="classmx_event-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">mxEvent类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+mxEvent 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classmx_event__coll__graph.png" border="0" usemap="#amx_event_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:aac542ae41a070f836a4f935685fd2699"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<b>Action</b>
+, <b>Size</b>
+, <b>Timer</b>
+, <b>Idle</b>
+, <br />
+&#160;&#160;<b>Show</b>
+, <b>Hide</b>
+, <b>MouseUp</b>
+, <b>MouseDown</b>
+, <br />
+&#160;&#160;<b>MouseMove</b>
+, <b>MouseDrag</b>
+, <b>KeyUp</b>
+, <b>KeyDown</b>
+, <br />
+&#160;&#160;<b>MouseWheel</b>
+<br />
+ }</td></tr>
+<tr class="separator:aac542ae41a070f836a4f935685fd2699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81caf28f55b53557cbff1a93047fdee8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>MouseLeftButton</b> = 1
+, <b>MouseRightButton</b> = 2
+, <b>MouseMiddleButton</b> = 4
+ }</td></tr>
+<tr class="separator:a81caf28f55b53557cbff1a93047fdee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3020df30d723097978bfd8f8812cb64"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>KeyCtrl</b> = 1
+, <b>KeyShift</b> = 2
+ }</td></tr>
+<tr class="separator:aa3020df30d723097978bfd8f8812cb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ebf03b07a1830db685298077c60ef4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>RightClicked</b> = 1
+, <b>DoubleClicked</b> = 2
+ }</td></tr>
+<tr class="separator:ac3ebf03b07a1830db685298077c60ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a3e9ba37c96552cf178b6f6f99fdfb38d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a3e9ba37c96552cf178b6f6f99fdfb38d">event</a></td></tr>
+<tr class="separator:a3e9ba37c96552cf178b6f6f99fdfb38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab04e99fef2977e05597a6641b7ecd8d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmx_widget.html">mxWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#ab04e99fef2977e05597a6641b7ecd8d6">widget</a></td></tr>
+<tr class="separator:ab04e99fef2977e05597a6641b7ecd8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2d6d6bbdde9b61e617f27dd75a7838"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a9c2d6d6bbdde9b61e617f27dd75a7838">action</a></td></tr>
+<tr class="separator:a9c2d6d6bbdde9b61e617f27dd75a7838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4435e90bb96cc47fd5a3f441328b8ba0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a4435e90bb96cc47fd5a3f441328b8ba0">width</a></td></tr>
+<tr class="separator:a4435e90bb96cc47fd5a3f441328b8ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7441fb7f0585709297badde551d89f46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a7441fb7f0585709297badde551d89f46">height</a></td></tr>
+<tr class="separator:a7441fb7f0585709297badde551d89f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3ca361dad3fbcf6277cca54e4c1c01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a2c3ca361dad3fbcf6277cca54e4c1c01">x</a></td></tr>
+<tr class="separator:a2c3ca361dad3fbcf6277cca54e4c1c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c35aadb0d3ca8c532b622ac6cc10ea7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a7c35aadb0d3ca8c532b622ac6cc10ea7">y</a></td></tr>
+<tr class="separator:a7c35aadb0d3ca8c532b622ac6cc10ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f5fe9f79be89459b7b836d2373d2df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a77f5fe9f79be89459b7b836d2373d2df">buttons</a></td></tr>
+<tr class="separator:a77f5fe9f79be89459b7b836d2373d2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fad4791af3e7b9feac66b3142038f88"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a4fad4791af3e7b9feac66b3142038f88">key</a></td></tr>
+<tr class="separator:a4fad4791af3e7b9feac66b3142038f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac2e43b6506f5818cc91c113343ede1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a1ac2e43b6506f5818cc91c113343ede1">modifiers</a></td></tr>
+<tr class="separator:a1ac2e43b6506f5818cc91c113343ede1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d90fe67a34824a3c2245512aa1d32c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#a14d90fe67a34824a3c2245512aa1d32c">flags</a></td></tr>
+<tr class="separator:a14d90fe67a34824a3c2245512aa1d32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5699ada4c299628ea5eefcb893d40f0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmx_event.html#aa5699ada4c299628ea5eefcb893d40f0">zdelta</a></td></tr>
+<tr class="separator:aa5699ada4c299628ea5eefcb893d40f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00023">23</a> 行定义.</p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a id="aac542ae41a070f836a4f935685fd2699" name="aac542ae41a070f836a4f935685fd2699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac542ae41a070f836a4f935685fd2699">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00027">27</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>             { Action, Size, Timer, Idle, Show, Hide,</div>
+<div class="line"><span class="lineno">   28</span>                MouseUp, MouseDown, MouseMove, MouseDrag,</div>
+<div class="line"><span class="lineno">   29</span>                KeyUp, KeyDown, MouseWheel</div>
+<div class="line"><span class="lineno">   30</span>        };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a81caf28f55b53557cbff1a93047fdee8" name="a81caf28f55b53557cbff1a93047fdee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81caf28f55b53557cbff1a93047fdee8">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00032">32</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{ MouseLeftButton = 1, MouseRightButton = 2, MouseMiddleButton = 4};</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa3020df30d723097978bfd8f8812cb64" name="aa3020df30d723097978bfd8f8812cb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3020df30d723097978bfd8f8812cb64">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00033">33</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{ KeyCtrl = 1, KeyShift = 2 };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac3ebf03b07a1830db685298077c60ef4" name="ac3ebf03b07a1830db685298077c60ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ebf03b07a1830db685298077c60ef4">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00034">34</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{ RightClicked = 1, DoubleClicked = 2 };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a69d001f478b7bc9243e750460b0b26e9" name="a69d001f478b7bc9243e750460b0b26e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d001f478b7bc9243e750460b0b26e9">&#9670;&#160;</a></span>mxEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mxEvent::mxEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00048">48</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>: event (0), widget (0), action (0), width (0), height (0), x (0), y (0), buttons (0), key (0), modifiers (0), flags (0) {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a338c880db90bc8dc80c7e51fe247d944" name="a338c880db90bc8dc80c7e51fe247d944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338c880db90bc8dc80c7e51fe247d944">&#9670;&#160;</a></span>~mxEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual mxEvent::~mxEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00049">49</a> 行定义.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a9c2d6d6bbdde9b61e617f27dd75a7838" name="a9c2d6d6bbdde9b61e617f27dd75a7838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2d6d6bbdde9b61e617f27dd75a7838">&#9670;&#160;</a></span>action</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::action</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00039">39</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a77f5fe9f79be89459b7b836d2373d2df" name="a77f5fe9f79be89459b7b836d2373d2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f5fe9f79be89459b7b836d2373d2df">&#9670;&#160;</a></span>buttons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::buttons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3e9ba37c96552cf178b6f6f99fdfb38d" name="a3e9ba37c96552cf178b6f6f99fdfb38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9ba37c96552cf178b6f6f99fdfb38d">&#9670;&#160;</a></span>event</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::event</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00037">37</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a14d90fe67a34824a3c2245512aa1d32c" name="a14d90fe67a34824a3c2245512aa1d32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d90fe67a34824a3c2245512aa1d32c">&#9670;&#160;</a></span>flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7441fb7f0585709297badde551d89f46" name="a7441fb7f0585709297badde551d89f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7441fb7f0585709297badde551d89f46">&#9670;&#160;</a></span>height</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::height</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4fad4791af3e7b9feac66b3142038f88" name="a4fad4791af3e7b9feac66b3142038f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fad4791af3e7b9feac66b3142038f88">&#9670;&#160;</a></span>key</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::key</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00042">42</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1ac2e43b6506f5818cc91c113343ede1" name="a1ac2e43b6506f5818cc91c113343ede1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac2e43b6506f5818cc91c113343ede1">&#9670;&#160;</a></span>modifiers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::modifiers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00043">43</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab04e99fef2977e05597a6641b7ecd8d6" name="ab04e99fef2977e05597a6641b7ecd8d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab04e99fef2977e05597a6641b7ecd8d6">&#9670;&#160;</a></span>widget</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmx_widget.html">mxWidget</a>* mxEvent::widget</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00038">38</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4435e90bb96cc47fd5a3f441328b8ba0" name="a4435e90bb96cc47fd5a3f441328b8ba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4435e90bb96cc47fd5a3f441328b8ba0">&#9670;&#160;</a></span>width</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::width</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2c3ca361dad3fbcf6277cca54e4c1c01" name="a2c3ca361dad3fbcf6277cca54e4c1c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c3ca361dad3fbcf6277cca54e4c1c01">&#9670;&#160;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7c35aadb0d3ca8c532b622ac6cc10ea7" name="a7c35aadb0d3ca8c532b622ac6cc10ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c35aadb0d3ca8c532b622ac6cc10ea7">&#9670;&#160;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa5699ada4c299628ea5eefcb893d40f0" name="aa5699ada4c299628ea5eefcb893d40f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5699ada4c299628ea5eefcb893d40f0">&#9670;&#160;</a></span>zdelta</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mxEvent::zdelta</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="mx_event_8h_source.html">mxEvent.h</a> 第 <a class="el" href="mx_event_8h_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li><a class="el" href="mx_event_8h_source.html">mxEvent.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classmx_event.html">mxEvent</a></li>
+    <li class="footer">生成于 2023年 五月 11日 星期四 12:49:51 , 为 mxToolKit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:18: warning: documented symbol 'mxMenuBar::mxMenuBar' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:36: warning: documented symbol 'mxMenuBar::~mxMenuBar' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:45: warning: documented symbol 'void mxMenuBar::addMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:55: warning: documented symbol 'void mxMenuBar::setEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:63: warning: documented symbol 'void mxMenuBar::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:72: warning: documented symbol 'void mxMenuBar::modify' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:83: warning: documented symbol 'bool mxMenuBar::isEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:91: warning: documented symbol 'bool mxMenuBar::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenuBar.cpp:99: warning: documented symbol 'int mxMenuBar::getHeight' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:36: warning: documented symbol 'mxMenu::mxMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:47: warning: documented symbol 'mxMenu::~mxMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:55: warning: documented symbol 'void mxMenu::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:63: warning: documented symbol 'void mxMenu::addMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:73: warning: documented symbol 'void mxMenu::addSeparator' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:81: warning: documented symbol 'void mxMenu::setEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:89: warning: documented symbol 'void mxMenu::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:98: warning: documented symbol 'bool mxMenu::isEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxMenu.cpp:106: warning: documented symbol 'bool mxMenu::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:19: warning: documented symbol 'mxPopupMenu::mxPopupMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:32: warning: documented symbol 'mxPopupMenu::~mxPopupMenu' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:40: warning: documented symbol 'int mxPopupMenu::popup' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:59: warning: documented symbol 'void mxPopupMenu::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:77: warning: documented symbol 'void mxPopupMenu::addSeparator' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:85: warning: documented symbol 'void mxPopupMenu::setEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:93: warning: documented symbol 'void mxPopupMenu::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:101: warning: documented symbol 'bool mxPopupMenu::isEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxPopupMenu.cpp:109: warning: documented symbol 'bool mxPopupMenu::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGroupBox.cpp:35: warning: documented symbol 'mxGroupBox::mxGroupBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGroupBox.cpp:54: warning: documented symbol 'mxGroupBox::~mxGroupBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:18: warning: documented symbol 'mxSlider::mxSlider' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:49: warning: documented symbol 'mxSlider::~mxSlider' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:57: warning: documented symbol 'void mxSlider::setValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:67: warning: documented symbol 'void mxSlider::setRange' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:77: warning: documented symbol 'void mxSlider::setSteps' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:89: warning: documented symbol 'int mxSlider::getValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:97: warning: documented symbol 'int mxSlider::getMinValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:105: warning: documented symbol 'int mxSlider::getMaxValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:113: warning: documented symbol 'int mxSlider::getLineStep' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxSlider.cpp:121: warning: documented symbol 'int mxSlider::getPageStep' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:39: warning: documented symbol 'mxProgressBar::mxProgressBar' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:59: warning: documented symbol 'mxProgressBar::~mxProgressBar' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:67: warning: documented symbol 'void mxProgressBar::setValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:77: warning: documented symbol 'void mxProgressBar::setTotalSteps' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:85: warning: documented symbol 'int mxProgressBar::getValue' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxProgressBar.cpp:93: warning: documented symbol 'int mxProgressBar::getTotalSteps' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxRadioButton.cpp:22: warning: documented symbol 'mxRadioButton::mxRadioButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxRadioButton.cpp:45: warning: documented symbol 'mxRadioButton::~mxRadioButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxRadioButton.cpp:53: warning: documented symbol 'void mxRadioButton::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxRadioButton.cpp:63: warning: documented symbol 'bool mxRadioButton::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:18: warning: documented symbol 'mxChoice::mxChoice' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:38: warning: documented symbol 'mxChoice::~mxChoice' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:47: warning: documented symbol 'void mxChoice::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:55: warning: no matching class member found for 
+  void mxChoice::select(int index)
+Possible candidates:
+  'void mxTab_i::select(int index)' at line 33 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:66: warning: documented symbol 'void mxChoice::remove' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:74: warning: documented symbol 'void mxChoice::removeAll' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:82: warning: documented symbol 'int mxChoice::getItemCount' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxChoice.cpp:90: warning: no matching class member found for 
+  int mxChoice::getSelectedIndex() const
+Possible candidates:
+  'int mxTab_i::getSelectedIndex() const' at line 38 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:18: warning: documented symbol 'mxTreeView::mxTreeView' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:41: warning: documented symbol 'mxTreeView::~mxTreeView' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:50: warning: documented symbol 'mxTreeViewItem * mxTreeView::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:65: warning: documented symbol 'void mxTreeView::remove' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:76: warning: documented symbol 'mxTreeViewItem * mxTreeView::getFirstChild' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:87: warning: documented symbol 'mxTreeViewItem * mxTreeView::getNextChild' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:112: warning: documented symbol 'mxTreeViewItem * mxTreeView::getSelectedItem' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:120: warning: documented symbol 'void mxTreeView::setLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:129: warning: documented symbol 'void mxTreeView::setUserData' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:136: warning: documented symbol 'void mxTreeView::setOpen' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:145: warning: documented symbol 'void mxTreeView::setSelected' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:154: warning: documented symbol 'const char * mxTreeView::getLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:165: warning: documented symbol 'void * mxTreeView::getUserData' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:173: warning: documented symbol 'bool mxTreeView::isOpen' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:184: warning: documented symbol 'bool mxTreeView::isSelected' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTreeView.cpp:195: warning: documented symbol 'mxTreeViewItem * mxTreeView::getParent' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxToggleButton.cpp:18: warning: documented symbol 'mxToggleButton::mxToggleButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxToggleButton.cpp:40: warning: documented symbol 'mxToggleButton::~mxToggleButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxToggleButton.cpp:48: warning: documented symbol 'void mxToggleButton::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxToggleButton.cpp:56: warning: documented symbol 'bool mxToggleButton::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:44: warning: documented symbol 'mxWidget::mxWidget' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:63: warning: documented symbol 'mxWidget::~mxWidget' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:72: warning: documented symbol 'void mxWidget::setHandle' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:80: warning: documented symbol 'void mxWidget::setType' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:88: warning: documented symbol 'void mxWidget::setParent' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:96: warning: documented symbol 'void mxWidget::setBounds' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:107: warning: documented symbol 'void mxWidget::setLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:138: warning: documented symbol 'void mxWidget::setVisible' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:152: warning: documented symbol 'void mxWidget::setEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:163: warning: documented symbol 'void mxWidget::setId' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:171: warning: documented symbol 'void mxWidget::setUserData' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:179: warning: documented symbol 'void * mxWidget::getHandle' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:187: warning: documented symbol 'int mxWidget::getType' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:195: warning: documented symbol 'mxWindow * mxWidget::getParent' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:203: warning: documented symbol 'int mxWidget::x' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:211: warning: documented symbol 'int mxWidget::y' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:220: warning: documented symbol 'int mxWidget::w' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:228: warning: documented symbol 'int mxWidget::h' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:236: warning: documented symbol 'int mxWidget::w2' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:244: warning: documented symbol 'int mxWidget::h2' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:252: warning: documented symbol 'const char * mxWidget::getLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:277: warning: documented symbol 'bool mxWidget::isVisible' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:285: warning: documented symbol 'bool mxWidget::isEnabled' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:293: warning: documented symbol 'int mxWidget::getId' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWidget.cpp:301: warning: documented symbol 'void * mxWidget::getUserData' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLineEdit.cpp:18: warning: documented symbol 'mxLineEdit::mxLineEdit' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLineEdit.cpp:47: warning: documented symbol 'mxLineEdit::~mxLineEdit' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLineEdit.cpp:57: warning: documented symbol 'void mxLineEdit::setMaxLength' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLineEdit.cpp:65: warning: documented symbol 'int mxLineEdit::getMaxLength' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxToolTip.cpp:20: warning: documented symbol 'void mxToolTip::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:18: warning: documented symbol 'mxListBox::mxListBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:41: warning: documented symbol 'mxListBox::~mxListBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:49: warning: documented symbol 'void mxListBox::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:57: warning: no matching class member found for 
+  void mxListBox::select(int index)
+Possible candidates:
+  'void mxTab_i::select(int index)' at line 33 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:67: warning: documented symbol 'void mxListBox::deselect' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:77: warning: documented symbol 'void mxListBox::remove' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:85: warning: documented symbol 'void mxListBox::removeAll' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:92: warning: documented symbol 'int mxListBox::getItemCount' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:100: warning: no matching class member found for 
+  int mxListBox::getSelectedIndex() const
+Possible candidates:
+  'int mxTab_i::getSelectedIndex() const' at line 38 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxListBox.cpp:108: warning: documented symbol 'bool mxListBox::isSelected' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLabel.cpp:36: warning: documented symbol 'mxLabel::mxLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxLabel.cpp:55: warning: documented symbol 'mxLabel::~mxLabel' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:18: warning: documented symbol 'mxTab::mxTab' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:39: warning: documented symbol 'mxTab::~mxTab' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:47: warning: documented symbol 'void mxTab::add' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:58: warning: documented symbol 'void mxTab::remove' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:67: warning: no matching class member found for 
+  void mxTab::select(int index)
+Possible candidates:
+  'void mxTab_i::select(int index)' at line 33 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab.cpp:76: warning: no matching class member found for 
+  int mxTab::getSelectedIndex() const
+Possible candidates:
+  'int mxTab_i::getSelectedIndex() const' at line 38 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxTab_i.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:23: warning: documented symbol 'mxWindow::mxWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:70: warning: documented symbol 'mxWindow::~mxWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:79: warning: no uniquely matching class member found for 
+  int mxWindow::handleEvent(mxEvent *event)
+Possible candidates:
+  'virtual int RCWindow::handleEvent(mxEvent *event)' at line 56 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/RCWindow.h
+  'virtual int SDWindow::handleEvent(mxEvent *event)' at line 56 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/SDWindow.h
+  'virtual int GlWindow::handleEvent(mxEvent *event)' at line 35 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/GlWindow.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:87: warning: no uniquely matching class member found for 
+  void mxWindow::redraw()
+Possible candidates:
+  'void RCWindow::redraw()' at line 58 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/RCWindow.h
+  'void SDWindow::redraw()' at line 58 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/SDWindow.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:94: warning: documented symbol 'void mxWindow::setTimer' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxWindow.cpp:108: warning: documented symbol 'void mxWindow::setMenuBar' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxCheckBox.cpp:18: warning: documented symbol 'mxCheckBox::mxCheckBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxCheckBox.cpp:40: warning: documented symbol 'mxCheckBox::~mxCheckBox' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxCheckBox.cpp:48: warning: documented symbol 'void mxCheckBox::setChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxCheckBox.cpp:58: warning: documented symbol 'bool mxCheckBox::isChecked' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxButton.cpp:18: warning: documented symbol 'mxButton::mxButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxButton.cpp:39: warning: documented symbol 'mxButton::~mxButton' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:50: warning: documented symbol 'int mx::init' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:66: warning: documented symbol 'int mx::run' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:74: warning: documented symbol 'int mx::check' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:83: warning: documented symbol 'void mx::sleep' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:91: warning: documented symbol 'void mx::quit' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:120: warning: documented symbol 'int mx::setDisplayMode' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:128: warning: documented symbol 'void mx::setIdleWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:149: warning: documented symbol 'int mx::getDisplayWidth' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:157: warning: documented symbol 'int mx::getDisplayHeight' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:166: warning: documented symbol 'mxWindow * mx::getMainWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:174: warning: documented symbol 'const char * mx::getApplicationPath' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:182: warning: documented symbol 'int mx::getTickCount' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mx.cpp:188: warning: documented symbol 'void mx::cleanup' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:18: warning: documented symbol 'mxGlWindow::mxGlWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:39: warning: documented symbol 'mxGlWindow::~mxGlWindow' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:48: warning: no uniquely matching class member found for 
+  int mxGlWindow::handleEvent(mxEvent *event)
+Possible candidates:
+  'virtual int RCWindow::handleEvent(mxEvent *event)' at line 56 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/RCWindow.h
+  'virtual int SDWindow::handleEvent(mxEvent *event)' at line 56 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/SDWindow.h
+  'virtual int GlWindow::handleEvent(mxEvent *event)' at line 35 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/GlWindow.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:56: warning: no uniquely matching class member found for 
+  void mxGlWindow::redraw()
+Possible candidates:
+  'void RCWindow::redraw()' at line 58 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/RCWindow.h
+  'void SDWindow::redraw()' at line 58 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/SDWindow.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:70: warning: no matching class member found for 
+  void mxGlWindow::draw()
+Possible candidates:
+  'virtual void GlWindow::draw()' at line 36 of file C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/GlWindow.h
+
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:77: warning: documented symbol 'int mxGlWindow::makeCurrent' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:86: warning: documented symbol 'int mxGlWindow::swapBuffers' was not declared or defined.
+C:/Users/hasee/Desktop/s2_22_23/labs/p_lab/p20_all/p20_doc/p20_pi4/qt/mxGlWindow.cpp:95: warning: documented symbol 'void mxGlWindow::setFormat' was not declared or defined.

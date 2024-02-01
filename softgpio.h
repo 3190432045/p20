@@ -40,6 +40,7 @@ extern "C"
 
 
 int wiringPiSetup( void );
+int wiringPiSetupGpio( void );
 void pinMode(int pin, int mode);
 
 int digitalRead(int pin);

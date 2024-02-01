@@ -1,0 +1,3908 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment p20_all }p20_all}
+{\comment Generated by doxygen 1.9.5.}
+{\creatim \yr2023\mo5\dy11\hr11\min13\sec2}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt p20_all}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Thu May 11 2023 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Hierarchical Index\par \pard\plain 
+{\tc \v Hierarchical Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class Hierarchy\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This inheritance list is sorted roughly, but not completely, alphabetically:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+line_t\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+mxGlWindow
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+GlWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+mxWidget_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+mxWindow
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+RCWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+SDWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+packfile_t\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+packheader_t\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+QCheckBox
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxCheckBox_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QComboBox
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxChoice_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QGroupBox
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxGroupBox_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QLabel
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxLabel_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QLineEdit
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxLineEdit_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QListWidget
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxListBox_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QMainWindow
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxWindow_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QMenu
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxMenu_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+mxPopupMenu_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QMenuBar
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxMenuBar_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QOpenGLWidget
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxGlWindow_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QProgressBar
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxProgressBar_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QPushButton
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxButton_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+mxToggleButton_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QRadioButton
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxRadioButton_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QSlider
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxSlider_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QTabWidget
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxTab_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QTreeWidget
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+mxTreeView_i\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+ring_buffer\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 line_t}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 mxButton_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 mxCheckBox_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 mxChoice_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 mxGlWindow_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACW" }{}}{\fldrslt {\cs37\ul\cf2 mxGroupBox_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACY" }{}}{\fldrslt {\cs37\ul\cf2 mxLabel_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 mxLineEdit_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 mxListBox_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADE" }{}}{\fldrslt {\cs37\ul\cf2 mxMenu_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 mxMenuBar_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 mxPopupMenu_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADM" }{}}{\fldrslt {\cs37\ul\cf2 mxProgressBar_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 mxRadioButton_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 mxSlider_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 mxTab_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 mxToggleButton_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 mxTreeView_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEE" }{}}{\fldrslt {\cs37\ul\cf2 mxWidget_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 mxWindow_i}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 packfile_t}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 packheader_t}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 RCWindow}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 SDWindow}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all documented files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 action.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAB" }{}}{\fldrslt {\cs37\ul\cf2 buffer.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 client.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 cmdlib.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 CmdLine.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 GlPainter.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAM" }{}}{\fldrslt {\cs37\ul\cf2 mxButton_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAO" }{}}{\fldrslt {\cs37\ul\cf2 mxCheckBox_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 mxChoice_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAS" }{}}{\fldrslt {\cs37\ul\cf2 mxGlWindow_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAU" }{}}{\fldrslt {\cs37\ul\cf2 mxLineEdit_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 mxListBox_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 mxMenuBar_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 mxPopupMenu_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABC" }{}}{\fldrslt {\cs37\ul\cf2 mxRadioButton_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABE" }{}}{\fldrslt {\cs37\ul\cf2 mxSlider_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 mxTab_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABI" }{}}{\fldrslt {\cs37\ul\cf2 mxToggleButton_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 mxTreeView_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABM" }{}}{\fldrslt {\cs37\ul\cf2 mxWindow_i.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 RCWindow.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABQ" }{}}{\fldrslt {\cs37\ul\cf2 SDWindow.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABS" }{}}{\fldrslt {\cs37\ul\cf2 server.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABT" }{}}{\fldrslt {\cs37\ul\cf2 shared.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABU" }{}}{\fldrslt {\cs37\ul\cf2 softgpio.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABV" }{}}{\fldrslt {\cs37\ul\cf2 threads.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GlWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v GlWindow}
+{\xe \v GlWindow}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\par
+{
+Inherits mxGlWindow.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b GlWindow} (mxWindow *parent, int x, int y, int w, int h, const char *label, int style){\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual int {\b handleEvent} (mxEvent *event){\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b draw} (){\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b InsertLine} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 line_t}}}
+ &newline){\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b LineClear} (){\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b LineUndo} (){\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+GlWindow.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+GlWindow.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+line_t Struct Reference\par \pard\plain 
+{\tc\tcl2 \v line_t}
+{\xe \v line_t}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+unsigned char {\b x0}{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+unsigned char {\b y0}{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+unsigned char {\b x1}{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+unsigned char {\b y1}{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+CmdLine.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxButton_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxButton_i}
+{\xe \v mxButton_i}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par
+{
+Inherits QPushButton.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b clickedEvent} (){\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxButton_i} (QWidget *parent, mxButton *widget){\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxButton_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxCheckBox_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxCheckBox_i}
+{\xe \v mxCheckBox_i}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par
+{
+Inherits QCheckBox.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b clickedEvent} (){\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxCheckBox_i} (QWidget *parent, mxCheckBox *widget){\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxCheckBox_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxChoice_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxChoice_i}
+{\xe \v mxChoice_i}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par
+{
+Inherits QComboBox.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b activatedEvent} (int index){\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxChoice_i} (QWidget *parent, mxChoice *widget){\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b d_currentItem}{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxChoice_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxGlWindow_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxGlWindow_i}
+{\xe \v mxGlWindow_i}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\par
+{
+Inherits QOpenGLWidget.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b idleEvent} (){\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxGlWindow_i} (QWidget *parent, mxGlWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+){\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b paintGL} (){\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b resizeGL} (int w, int h){\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mousePressEvent} (QMouseEvent *e){\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mouseMoveEvent} (QMouseEvent *e){\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mouseReleaseEvent} (QMouseEvent *e){\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b keyPressEvent} (QKeyEvent *e){\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b timerEvent} (QTimerEvent *e){\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxGlWindow_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxGroupBox_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxGroupBox_i}
+{\xe \v mxGroupBox_i}
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\par
+{
+Inherits QGroupBox.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxGroupBox_i} (QWidget *parent, mxGroupBox *widget){\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxGroupBox.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxLabel_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxLabel_i}
+{\xe \v mxLabel_i}
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\par
+{
+Inherits QLabel.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxLabel_i} (QWidget *parent, mxLabel *widget){\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxLabel.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxLineEdit_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxLineEdit_i}
+{\xe \v mxLineEdit_i}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\par
+{
+Inherits QLineEdit.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b textChangedEvent} (const QString &text){\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxLineEdit_i} (QWidget *parent, mxLineEdit *widget){\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxLineEdit_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxListBox_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxListBox_i}
+{\xe \v mxListBox_i}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par
+{
+Inherits QListWidget.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b selectedEvent} (){\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxListBox_i} (QWidget *parent, mxListBox *widget){\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxListBox_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxMenu_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxMenu_i}
+{\xe \v mxMenu_i}
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+\par
+{
+Inherits QMenu.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxMenu_i} (mxMenu *menu){\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxMenu.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxMenuBar_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxMenuBar_i}
+{\xe \v mxMenuBar_i}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\par
+{
+Inherits QMenuBar.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b activatedEvent} (QAction *action){\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxMenuBar_i} (QWidget *parent, mxMenuBar *menuBar){\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxMenuBar_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxPopupMenu_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxPopupMenu_i}
+{\xe \v mxPopupMenu_i}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+{
+Inherits QMenu.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b activatedEvent} (QAction *action){\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxPopupMenu_i} (mxPopupMenu *popupMenu){\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QMap< int, QAction * > {\b d_actionList}{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b d_lastItemId}{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxPopupMenu_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxProgressBar_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxProgressBar_i}
+{\xe \v mxProgressBar_i}
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+\par
+{
+Inherits QProgressBar.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxProgressBar_i} (QWidget *parent, mxProgressBar *widget){\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxProgressBar.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxRadioButton_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxRadioButton_i}
+{\xe \v mxRadioButton_i}
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\par
+{
+Inherits QRadioButton.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b clickedEvent} (){\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxRadioButton_i} (QWidget *parent, mxRadioButton *widget, bool newGroup){\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxRadioButton_i.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxRadioButton.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxSlider_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxSlider_i}
+{\xe \v mxSlider_i}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\par
+{
+Inherits QSlider.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b valueChangedEvent} (int value){\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxSlider_i} (QWidget *parent, mxSlider *widget){\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxSlider_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxTab_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxTab_i}
+{\xe \v mxTab_i}
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+{
+Inherits QTabWidget.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b tabBarClickedEvent} (int index){\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxTab_i} (QWidget *parent, mxTab *widget){\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b select} (int index){\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b getSelectedIndex} () const{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxTab_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxToggleButton_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxToggleButton_i}
+{\xe \v mxToggleButton_i}
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\par
+{
+Inherits QPushButton.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b clickedEvent} (){\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxToggleButton_i} (QWidget *parent, mxToggleButton *widget){\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxToggleButton_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxTreeView_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxTreeView_i}
+{\xe \v mxTreeView_i}
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\par
+{
+Inherits QTreeWidget.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b selectionChangedEvent} (){\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b doubleClickedEvent} (QTreeWidgetItem *item, int column){\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b rightButtonClickedEvent} (const QPoint &pos){\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxTreeView_i} (QWidget *parent, mxTreeView *widget){\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b resizeEvent} (QResizeEvent *event){\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mousePressEvent} (QMouseEvent *event){\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxTreeView_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxWidget_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxWidget_i}
+{\xe \v mxWidget_i}
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+mxWindow * {\b d_parent_p}{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QWidget * {\b d_widget}{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void * {\b d_userData}{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b d_id}{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b d_type}{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxWidget.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxWindow_i Class Reference\par \pard\plain 
+{\tc\tcl2 \v mxWindow_i}
+{\xe \v mxWindow_i}
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\par
+{
+Inherits QMainWindow.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Slots\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b idleEvent} (){\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b mxWindow_i} (QWidget *parent, mxWindow *window){\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setTimerId} (int timerId){\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b getTimerId} (){\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b resizeEvent} (QResizeEvent *e){\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mousePressEvent} (QMouseEvent *e){\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mouseMoveEvent} (QMouseEvent *e){\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b mouseReleaseEvent} (QMouseEvent *e){\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b keyPressEvent} (QKeyEvent *e){\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual void {\b timerEvent} (QTimerEvent *e){\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+mxWindow_i.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+packfile_t Struct Reference\par \pard\plain 
+{\tc\tcl2 \v packfile_t}
+{\xe \v packfile_t}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+char {\b name} [56]{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b filepos}{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b filelen}{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+cmdlib.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+packheader_t Struct Reference\par \pard\plain 
+{\tc\tcl2 \v packheader_t}
+{\xe \v packheader_t}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+char {\b id} [4]{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b dirofs}{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b dirlen}{\bkmkstart AAAAAAAAEZ}
+{\bkmkend AAAAAAAAEZ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+cmdlib.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+RCWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v RCWindow}
+{\xe \v RCWindow}
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\par
+{
+Inherits mxWindow.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual int {\b handleEvent} (mxEvent *event){\bkmkstart AAAAAAAAFA}
+{\bkmkend AAAAAAAAFA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b redraw} (){\bkmkstart AAAAAAAAFB}
+{\bkmkend AAAAAAAAFB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+mxMenuBar * {\b getMenuBar} () const{\bkmkstart AAAAAAAAFC}
+{\bkmkend AAAAAAAAFC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ * {\b getGlWindow} () const{\bkmkstart AAAAAAAAFD}
+{\bkmkend AAAAAAAAFD}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+RCWindow.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+RCWindow.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ring_buffer Struct Reference\par \pard\plain 
+{\tc\tcl2 \v ring_buffer}
+{\xe \v ring_buffer}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b size}{\bkmkstart AAAAAAAAFE}
+{\bkmkend AAAAAAAAFE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b get_index}{\bkmkstart AAAAAAAAFF}
+{\bkmkend AAAAAAAAFF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\b put_index}{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+ElemType * {\b address}{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this struct was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+buffer.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SDWindow Class Reference\par \pard\plain 
+{\tc\tcl2 \v SDWindow}
+{\xe \v SDWindow}
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+{
+Inherits mxWindow.}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual int {\b handleEvent} (mxEvent *event){\bkmkstart AAAAAAAAFI}
+{\bkmkend AAAAAAAAFI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b redraw} (){\bkmkstart AAAAAAAAFJ}
+{\bkmkend AAAAAAAAFJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+mxMenuBar * {\b getMenuBar} () const{\bkmkstart AAAAAAAAFK}
+{\bkmkend AAAAAAAAFK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ * {\b getGlWindow} () const{\bkmkstart AAAAAAAAFL}
+{\bkmkend AAAAAAAAFL}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SDWindow.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SDWindow.cpp\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+action.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 \par
+11 {\cf21 #ifndef __ACTION__}\par
+12 {\cf21 #define __ACTION__}\par
+13 \par
+14 \par
+15 {\cf20 /*}\par
+16 {\cf20 // action.h}\par
+17 {\cf20 */}\par
+18 \par
+19 \par
+20 {\cf21 #ifdef __cplusplus}\par
+21 {\cf17 extern} {\cf22 "C"}\par
+22 \{\par
+23 {\cf21 #endif}\par
+24 \par
+25 {\cf18 void} action_main();\par
+26 \par
+27 {\cf21 #ifdef __cplusplus}\par
+28 \}\par
+29 {\cf21 #endif}\par
+30 \par
+31 \par
+32 {\cf21 #endif  }{\cf20 /*__ACTION__*/}{\cf21 }\par
+33 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+buffer.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 \par
+11 {\cf21 #ifndef __BUFFER__}\par
+12 {\cf21 #define __BUFFER__}\par
+13 \par
+14 \par
+15 {\cf20 /*}\par
+16 {\cf20 // buffer.h}\par
+17 {\cf20 */}\par
+18 \par
+19 \par
+20 {\cf21 #ifdef __cplusplus}\par
+21 {\cf17 extern} {\cf22 "C"}\par
+22 \{\par
+23 {\cf21 #endif}\par
+24 \par
+25 \par
+26 {\cf17 typedef} {\cf18 unsigned} {\cf18 char} ElemType;\par
+27 \par
+28 {\cf17 typedef} {\cf17 struct}\par
+29 \{\par
+30     {\cf18 int} size;\par
+31     {\cf18 int} get_index;\par
+32     {\cf18 int} put_index;\par
+33     ElemType *address;\par
+34 \} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+;\par
+35 \par
+36 \par
+37 {\cf18 void} buffer_init({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr, {\cf18 int} size);\par
+38 \par
+39 {\cf18 void} buffer_print({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr);\par
+40 {\cf18 int} buffer_full({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr);\par
+41 {\cf18 int} buffer_empty({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr);\par
+42 \par
+43 {\cf18 void} buffer_put({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr, ElemType *elem);\par
+44 {\cf18 void} buffer_get({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr, ElemType *elem);\par
+45 \par
+46 {\cf18 void} buffer_flush({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr);\par
+47 {\cf18 void} buffer_display({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ *buffer_ptr);\par
+48 \par
+49 \par
+50 {\cf21 #ifdef __cplusplus}\par
+51 \}\par
+52 {\cf21 #endif}\par
+53 \par
+54 \par
+55 {\cf21 #endif  }{\cf20 /*__BUFFER__*/}{\cf21 }\par
+56 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+client.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 {\cf20 /*}\par
+11 {\cf20 }\par
+12 {\cf20 frame structure}\par
+13 {\cf20 |0|D0|D1|D2|D3|D4|D5|D6|D7|1|1|}\par
+14 {\cf20 data packet structure}\par
+15 {\cf20 |0|length of data|-data-|-|crc16byte0|crc16byte1|}\par
+16 {\cf20 ACK (acknowledge) packet structure}\par
+17 {\cf20 |6|crc16byte0|crc16byte1|}\par
+18 {\cf20 }\par
+19 {\cf20 */}\par
+20 \par
+21 \par
+22 {\cf21 #ifndef __CLIENT__}\par
+23 {\cf21 #define __CLIENT__}\par
+24 \par
+25 \par
+26 {\cf20 /*}\par
+27 {\cf20 // client.h}\par
+28 {\cf20 */}\par
+29 \par
+30 \par
+31 {\cf21 #ifdef __cplusplus}\par
+32 {\cf17 extern} {\cf22 "C"}\par
+33 \{\par
+34 {\cf21 #endif}\par
+35 \par
+36 {\cf17 extern} {\cf18 int} flag_client_ready;\par
+37 {\cf17 extern} {\cf18 int} flag_client_isdumping;\par
+38 \par
+39 {\cf17 extern} {\cf18 int} flag_client_get_ack;\par
+40 {\cf17 extern} {\cf18 byte} client_crc16[3];\par
+41 \par
+42 {\cf18 int} CL_get_msg ({\cf18 char} *msg);\par
+43 \par
+44 {\cf18 void} client_main();\par
+45 \par
+46 {\cf21 #ifdef __cplusplus}\par
+47 \}\par
+48 {\cf21 #endif}\par
+49 \par
+50 \par
+51 {\cf21 #endif  }{\cf20 /*__CLIENT__*/}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+cmdlib.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /***}\par
+2 {\cf20 *}\par
+3 {\cf20 *       Copyright (c) 1996-2002, Valve LLC. All rights reserved.}\par
+4 {\cf20 *}\par
+5 {\cf20 *       This product contains software technology licensed from Id}\par
+6 {\cf20 *       Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc.}\par
+7 {\cf20 *       All Rights Reserved.}\par
+8 {\cf20 *}\par
+9 {\cf20 ****/}\par
+10 \par
+11 {\cf20 /* cmdlib.h */}\par
+12 \par
+13 {\cf20 /*}\par
+14 {\cf20 =================}\par
+15 {\cf20 last modified: 2023/3/25}\par
+16 {\cf20 =================}\par
+17 {\cf20 */}\par
+18 \par
+19 {\cf21 #ifndef __CMDLIB__}\par
+20 {\cf21 #define __CMDLIB__}\par
+21 \par
+22 \par
+23 {\cf21 #ifdef __cplusplus}\par
+24 {\cf17 extern} {\cf22 "C"}\par
+25 \{\par
+26 {\cf21 #endif}\par
+27 \par
+28 \par
+29 {\cf21 #include <stdio.h>}\par
+30 \par
+31 \par
+32 {\cf21 #ifndef __CMDUTIL__}\par
+33 {\cf21 #define __CMDUTIL__}\par
+34 {\cf21 #ifndef _NOENUMQBOOL}\par
+35 {\cf17 typedef} {\cf17 enum} \{{\cf17 false}, {\cf17 true}\} qboolean;\par
+36 {\cf21 #else}\par
+37 {\cf17 typedef} {\cf18 int} qboolean;\par
+38 {\cf21 #undef true}\par
+39 {\cf21 #undef false}\par
+40 {\cf21 #define true 1}\par
+41 {\cf21 #define false 0}\par
+42 {\cf21 #endif}\par
+43 \par
+44 {\cf17 typedef} {\cf18 unsigned} {\cf18 char} byte;\par
+45 {\cf21 #endif}\par
+46 \par
+47 {\cf20 /* the dec offsetof macro doesn't work very well... */}\par
+48 {\cf21 #define myoffsetof(type,identifier) ((size_t)&((type *)0)->identifier)}\par
+49 \par
+50 \par
+51 {\cf20 /* set these before calling CheckParm */}\par
+52 {\cf17 extern} {\cf18 int} myargc;\par
+53 {\cf17 extern} {\cf18 char} **myargv;\par
+54 \par
+55 {\cf18 void} COM_FixSlashes( {\cf18 char} *pname );\par
+56 {\cf18 char} *strupr ({\cf18 char} *in);\par
+57 {\cf18 char} *strlower ({\cf18 char} *in);\par
+58 {\cf18 int} Q_strncasecmp ({\cf18 char} *s1, {\cf18 char} *s2, {\cf18 int} n);\par
+59 {\cf18 int} Q_strcasecmp ({\cf18 char} *s1, {\cf18 char} *s2);\par
+60 {\cf18 void} Q_getwd ({\cf18 char} *out);\par
+61 \par
+62 {\cf18 int} Q_filelength (FILE *f);\par
+63 {\cf18 int}     FileTime ({\cf18 char} *path);\par
+64 \par
+65 {\cf18 void}    Q_mkdir ({\cf18 char} *path);\par
+66 \par
+67 {\cf17 extern}  {\cf18 char}            qdir[1024];\par
+68 {\cf17 extern}  {\cf18 char}            gamedir[1024];\par
+69 {\cf18 void} SetQdirFromPath ({\cf18 char} *path);\par
+70 {\cf18 char} *ExpandArg ({\cf18 char} *path);   {\cf20 /* from cmd line */}\par
+71 {\cf18 char} *ExpandPath ({\cf18 char} *path);  {\cf20 /* from scripts  */}\par
+72 {\cf18 char} *ExpandPathAndArchive ({\cf18 char} *path);\par
+73 \par
+74 \par
+75 {\cf18 double} I_FloatTime ({\cf18 void});\par
+76 \par
+77 {\cf18 void}    Error ({\cf18 char} *error, ...);\par
+78 {\cf18 int}             CheckParm ({\cf18 char} *check);\par
+79 \par
+80 FILE    *SafeOpenWrite ({\cf18 char} *filename);\par
+81 FILE    *SafeOpenRead ({\cf18 char} *filename);\par
+82 {\cf18 void}    SafeRead (FILE *f, {\cf18 void} *buffer, {\cf18 int} count);\par
+83 {\cf18 void}    SafeWrite (FILE *f, {\cf18 void} *buffer, {\cf18 int} count);\par
+84 \par
+85 {\cf18 int}             LoadFile ({\cf18 char} *filename, {\cf18 void} **bufferptr);\par
+86 {\cf18 void}    SaveFile ({\cf18 char} *filename, {\cf18 void} *buffer, {\cf18 int} count);\par
+87 \par
+88 {\cf18 void}    DefaultExtension ({\cf18 char} *path, {\cf18 char} *extension);\par
+89 {\cf18 void}    DefaultPath ({\cf18 char} *path, {\cf18 char} *basepath);\par
+90 {\cf18 void}    StripFilename ({\cf18 char} *path);\par
+91 {\cf18 void}    StripExtension ({\cf18 char} *path);\par
+92 \par
+93 {\cf18 void}    ExtractFilePath ({\cf18 char} *path, {\cf18 char} *dest);\par
+94 {\cf18 void}    ExtractFileBase ({\cf18 char} *path, {\cf18 char} *dest);\par
+95 {\cf18 void}    ExtractFileExtension ({\cf18 char} *path, {\cf18 char} *dest);\par
+96 \par
+97 {\cf18 int}     ParseNum ({\cf18 char} *str);\par
+98 \par
+99 {\cf18 short}   BigShort ({\cf18 short} l);\par
+100 {\cf18 short}   LittleShort ({\cf18 short} l);\par
+101 {\cf18 int}             BigLong ({\cf18 int} l);\par
+102 {\cf18 int}             LittleLong ({\cf18 int} l);\par
+103 {\cf18 float}   BigFloat ({\cf18 float} l);\par
+104 {\cf18 float}   LittleFloat ({\cf18 float} l);\par
+105 \par
+106 {\cf18 long} flen(FILE* f);\par
+107 \par
+108 \par
+109 \par
+110 {\cf18 char} *COM_Parse ({\cf18 char} *data);\par
+111 \par
+112 {\cf17 extern}  {\cf18 char}            com_token[1024];\par
+113 {\cf17 extern}  qboolean        com_eof;\par
+114 \par
+115 {\cf18 char} *copystring({\cf18 char} *s);\par
+116 \par
+117 \par
+118 {\cf18 void} CRC_Init({\cf18 unsigned} {\cf18 short} *crcvalue);\par
+119 {\cf18 void} CRC_ProcessByte({\cf18 unsigned} {\cf18 short} *crcvalue, {\cf18 byte} data);\par
+120 {\cf18 unsigned} {\cf18 short} CRC_Value({\cf18 unsigned} {\cf18 short} crcvalue);\par
+121 \par
+122 {\cf18 void}    CreatePath ({\cf18 char} *path);\par
+123 {\cf18 void}    QCopyFile ({\cf18 char} *from, {\cf18 char} *to);\par
+124 \par
+125 {\cf17 extern}  qboolean                archive;\par
+126 {\cf17 extern}  {\cf18 char}                    archivedir[1024];\par
+127 \par
+128 \par
+129 {\cf17 extern}  qboolean verbose;\par
+130 {\cf18 void} qprintf ({\cf18 char} *format, ...);\par
+131 \par
+132 \par
+133 {\cf17 typedef} {\cf17 struct}\par
+134 \{\par
+135     {\cf18 char}        name[56];\par
+136     {\cf18 int}         filepos, filelen;\par
+137 \} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 packfile_t}}}
+;\par
+138 \par
+139 {\cf17 typedef} {\cf17 struct}\par
+140 \{\par
+141     {\cf18 char}        {\cf18 id}[4];\par
+142     {\cf18 int}         dirofs;\par
+143     {\cf18 int}         dirlen;\par
+144 \} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 packheader_t}}}
+;\par
+145 \par
+146 \par
+147 {\cf18 void} ListPak({\cf18 char}* pakname);\par
+148 \par
+149 \par
+150 {\cf21 #ifdef __cplusplus}\par
+151 \}\par
+152 {\cf21 #endif}\par
+153 \par
+154 {\cf21 #endif }{\cf20 /*__CMDLIB__*/}{\cf21 }\par
+155 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+CmdLine.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //}\par
+3 {\cf20 //}\par
+4 {\cf20 //}\par
+5 {\cf20 // file: CmdLine.h}\par
+6 {\cf20 // last modified:}\par
+7 {\cf20 // copyright:}\par
+8 {\cf20 // version:}\par
+9 {\cf20 //}\par
+10 {\cf20 // email:}\par
+11 {\cf20 // web:}\par
+12 {\cf20 //}\par
+13 {\cf20 */}\par
+14 \par
+15 {\cf21 #ifndef INCLUDED_CMDLINE}\par
+16 {\cf21 #define INCLUDED_CMDLINE}\par
+17 \par
+18 {\cf21 #include <cstdio>}\par
+19 {\cf21 #include <vector>}\par
+20 {\cf21 #include <iterator>}\par
+21 \par
+22 \par
+23 {\cf21 #ifdef __cplusplus}\par
+24 {\cf17 extern} {\cf22 "C"}\par
+25 \{\par
+26 {\cf21 #endif}\par
+27 \par
+28 {\cf17 typedef} {\cf17 struct}\par
+29 \{\par
+30     {\cf18 unsigned} {\cf18 char} x0;\par
+31     {\cf18 unsigned} {\cf18 char} y0;\par
+32     {\cf18 unsigned} {\cf18 char} x1;\par
+33     {\cf18 unsigned} {\cf18 char} y1;\par
+34 \} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 line_t}}}
+;\par
+35 \par
+36 {\cf21 #ifdef __cplusplus}\par
+37 \}\par
+38 {\cf21 #endif}\par
+39 \par
+40 {\cf17 typedef} std::vector<line_t> drawlines_t;\par
+41 \par
+42 \par
+43 {\cf21 #endif }{\cf20 // INCLUDED_CMDLINE}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GlPainter.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 \par
+11 {\cf21 #ifndef __GLPAINTER__}\par
+12 {\cf21 #define __GLPAINTER__}\par
+13 \par
+14 \par
+15 {\cf20 /*}\par
+16 {\cf20 // GlPainter.h}\par
+17 {\cf20 */}\par
+18 \par
+19 \par
+20 {\cf21 #ifdef __cplusplus}\par
+21 {\cf17 extern} {\cf22 "C"}\par
+22 \{\par
+23 {\cf21 #endif}\par
+24 \par
+25 {\cf18 int} glpainter_main();\par
+26 \par
+27 {\cf21 #ifdef __cplusplus}\par
+28 \}\par
+29 {\cf21 #endif}\par
+30 \par
+31 \par
+32 {\cf21 #endif  }{\cf20 /*__GLPAINTER__*/}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GlWindow.h\par \pard\plain 
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //}\par
+3 {\cf20 //}\par
+4 {\cf20 //}\par
+5 {\cf20 // file: GlWindow.h}\par
+6 {\cf20 // last modified:}\par
+7 {\cf20 // copyright:}\par
+8 {\cf20 // version:}\par
+9 {\cf20 //}\par
+10 {\cf20 // email:}\par
+11 {\cf20 // web:}\par
+12 {\cf20 //}\par
+13 {\cf20 */}\par
+14 \par
+15 \par
+16 {\cf21 #ifndef INCLUDED_GLWINDOW}\par
+17 {\cf21 #define INCLUDED_GLWINDOW}\par
+18 \par
+19 \par
+20 \par
+21 {\cf21 #ifndef INCLUDED_MXGLWINDOW}\par
+22 {\cf21 #include <mx/mxGlWindow.h>}\par
+23 {\cf21 #endif}\par
+24 \par
+25 {\cf21 #include "CmdLine.h"}\par
+26 \par
+27 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ : {\cf17 public} mxGlWindow {\cf20 //should be replaced with QOpenGLWidget in Qt}\par
+28 \{\par
+29 {\cf17 public}:\par
+30         {\cf20 // CREATORS}\par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ (mxWindow *parent, {\cf18 int} x, {\cf18 int} y, {\cf18 int} w, {\cf18 int} h, {\cf17 const} {\cf18 char} *label, {\cf18 int} style);\par
+32         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 ~GlWindow}}}
+ ();\par
+33 \par
+34         {\cf20 // MANIPULATORS}\par
+35         {\cf17 virtual} {\cf18 int} handleEvent (mxEvent *event);\par
+36         {\cf17 virtual} {\cf18 void} draw ();\par
+37 \par
+38         {\cf20 // ACCESSORS}\par
+39     {\cf18 void} InsertLine ({\cf17 const} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 line_t}}}
+ &newline) \{ CmdLines.push_back(newline); redraw(); \}\par
+40 {\cf20 //    line_t FetchLine ( void ) const \{ return PrevLine; \}}\par
+41     {\cf18 void} LineClear() ;\par
+42     {\cf18 void} LineUndo () \{ {\cf19 if}(!CmdLines.empty()) CmdLines.pop_back(); redraw(); \}\par
+43 {\cf17 private}:\par
+44     drawlines_t CmdLines;\par
+45     drawlines_t Buffer;\par
+46 {\cf20 //    line_t PrevLine;}\par
+47     {\cf18 unsigned} {\cf18 char} x0;\par
+48     {\cf18 unsigned} {\cf18 char} y0;\par
+49     {\cf18 unsigned} {\cf18 char} x1;\par
+50     {\cf18 unsigned} {\cf18 char} y1;\par
+51 \};\par
+52 \par
+53 \par
+54 \par
+55 {\cf17 extern} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ *g_GlWindow;\par
+56 \par
+57 \par
+58 \par
+59 {\cf21 #endif }{\cf20 // INCLUDED_GLWINDOW}\par
+60 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxButton_i.h\par \pard\plain 
+{\tc\tcl2 \v mxButton_i.h}
+{\xe \v mxButton_i.h}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxButton_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxButton.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QPushButton>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 mxButton_i}}}
+ : {\cf17 public} QPushButton\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxButton *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 mxButton_i}}}
+ (QWidget *parent, mxButton *widget) : QPushButton (parent)\par
+27         \{\par
+28                 d_widget = widget;\par
+29         \}\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 ~mxButton_i}}}
+ () \{\}\par
+32 \par
+33 {\cf17 public} slots:\par
+34         {\cf18 void} clickedEvent ()\par
+35         \{\par
+36                 {\cf19 if} (d_widget->getId () > 0)\par
+37                 \{\par
+38                         mxWindow *parent = d_widget->getParent ();\par
+39                         mxEvent event;\par
+40                         {\cf17 event}.event = mxEvent::Action;\par
+41                         {\cf17 event}.widget = d_widget;\par
+42                         {\cf17 event}.action = d_widget->getId ();\par
+43                         {\cf19 while} (parent)\par
+44                         \{\par
+45                                 {\cf19 if} (parent->handleEvent (&event))\par
+46                                         {\cf19 break};\par
+47                                 parent = parent->getParent ();\par
+48                         \}\par
+49                 \}\par
+50         \}\par
+51 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxCheckBox_i.h\par \pard\plain 
+{\tc\tcl2 \v mxCheckBox_i.h}
+{\xe \v mxCheckBox_i.h}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxCheckBox_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxCheckBox.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QCheckBox>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 mxCheckBox_i}}}
+ : {\cf17 public} QCheckBox\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxCheckBox *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 mxCheckBox_i}}}
+ (QWidget *parent, mxCheckBox *widget) : QCheckBox (parent)\par
+27         \{\par
+28                 d_widget = widget;\par
+29         \}\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 ~mxCheckBox_i}}}
+ () \{\}\par
+32 \par
+33 {\cf17 public} slots:\par
+34         {\cf18 void} clickedEvent ()\par
+35         \{\par
+36                 {\cf19 if} (d_widget->getId () > 0)\par
+37                 \{\par
+38                         mxWindow *parent = d_widget->getParent ();\par
+39                         mxEvent event;\par
+40                         {\cf17 event}.event = mxEvent::Action;\par
+41                         {\cf17 event}.widget = d_widget;\par
+42                         {\cf17 event}.action = d_widget->getId ();\par
+43                         {\cf19 while} (parent)\par
+44                         \{\par
+45                                 {\cf19 if} (parent->handleEvent (&event))\par
+46                                         {\cf19 break};\par
+47                                 parent = parent->getParent ();\par
+48                         \}\par
+49                 \}\par
+50         \}\par
+51 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxChoice_i.h\par \pard\plain 
+{\tc\tcl2 \v mxChoice_i.h}
+{\xe \v mxChoice_i.h}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxChoice_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxChoice.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QComboBox>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 mxChoice_i}}}
+ : {\cf17 public} QComboBox\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxChoice *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\cf18 int} d_currentItem;\par
+27 \par
+28         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 mxChoice_i}}}
+ (QWidget *parent, mxChoice *widget) : QComboBox (parent)\par
+29         \{\par
+30                 d_widget = widget;\par
+31                 d_currentItem = 0;\par
+32         \}\par
+33 \par
+34         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 ~mxChoice_i}}}
+ () \{\}\par
+35 \par
+36 {\cf17 public} slots:\par
+37         {\cf18 void} activatedEvent ({\cf18 int} index)\par
+38         \{\par
+39                 {\cf19 if} (d_widget->getId () > 0)\par
+40                 \{\par
+41                         mxWindow *parent = d_widget->getParent ();\par
+42                         mxEvent event;\par
+43                         {\cf17 event}.event = mxEvent::Action;\par
+44                         {\cf17 event}.widget = d_widget;\par
+45                         {\cf17 event}.action = d_widget->getId ();\par
+46                         {\cf19 while} (parent)\par
+47                         \{\par
+48                                 {\cf19 if} (parent->handleEvent (&event))\par
+49                                         {\cf19 break};\par
+50                                 parent = parent->getParent ();\par
+51                         \}\par
+52                 \}\par
+53         \}\par
+54 \};\par
+55 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxGlWindow_i.h\par \pard\plain 
+{\tc\tcl2 \v mxGlWindow_i.h}
+{\xe \v mxGlWindow_i.h}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxGlWindow_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Apr 20 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxGlWindow.h>}\par
+15 {\cf21 #include <mx/mx.h>}\par
+16 {\cf21 #include <QOpenGLWidget>}\par
+17 {\cf21 #include <QOpenGLContext>}\par
+18 {\cf21 #include <QMouseEvent>}\par
+19 \par
+20 \par
+21 \par
+22 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 mxGlWindow_i}}}
+ : {\cf17 public} QOpenGLWidget\par
+23 \{\par
+24         Q_OBJECT\par
+25         mxGlWindow *d_GlWindow;\par
+26         {\cf18 bool} d_dragging;\par
+27         {\cf18 int} d_button;\par
+28 \par
+29 {\cf17 public}:\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 mxGlWindow_i}}}
+ (QWidget *parent, mxGlWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+) : QOpenGLWidget (parent)\par
+32         \{\par
+33                 d_GlWindow = {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+;\par
+34                 d_dragging = {\cf17 false};\par
+35                 d_button = 0;\par
+36                 setMouseTracking ({\cf17 true});\par
+37                 installEventFilter ({\cf17 this});\par
+38         \}\par
+39 \par
+40         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 ~mxGlWindow_i}}}
+ ()\par
+41         \{\par
+42         \}\par
+43 \par
+44 {\cf17 public} slots:\par
+45         {\cf18 void} idleEvent ()\par
+46         \{\par
+47                 mxEvent event;\par
+48 \par
+49                 {\cf17 event}.event = mxEvent::Idle;\par
+50                 d_GlWindow->handleEvent (&event);\par
+51         update();\par
+52         \}\par
+53 \par
+54 {\cf17 protected}:\par
+55         {\cf17 virtual} {\cf18 void} paintGL ()\par
+56         \{\par
+57                 d_GlWindow->draw ();\par
+58         update();\par
+59         \}\par
+60 \par
+61         {\cf17 virtual} {\cf18 void} resizeGL ({\cf18 int} w, {\cf18 int} h)\par
+62         \{\par
+63                 mxEvent event;\par
+64                 {\cf17 event}.event = mxEvent::Size;\par
+65                 {\cf17 event}.width = w;\par
+66                 {\cf17 event}.height = h;\par
+67                 d_GlWindow->handleEvent (&event);\par
+68         \}\par
+69 \par
+70         {\cf17 virtual} {\cf18 void} mousePressEvent (QMouseEvent *e)\par
+71         \{\par
+72                 QOpenGLWidget::mousePressEvent (e);\par
+73                 d_dragging = {\cf17 true};\par
+74 \par
+75                 d_button = 0;\par
+76                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+77                         d_button |= mxEvent::MouseLeftButton;\par
+78                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+79                         d_button |= mxEvent::MouseRightButton;\par
+80                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+81                         d_button |= mxEvent::MouseMiddleButton;\par
+82 \par
+83                 mxEvent event;\par
+84                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+85                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+86                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+87                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+88                 {\cf17 event}.event = mxEvent::MouseDown;\par
+89                 {\cf17 event}.buttons = d_button;\par
+90                 {\cf17 event}.x = e->x ();\par
+91                 {\cf17 event}.y = e->y ();\par
+92                 d_GlWindow->handleEvent (&event);\par
+93         \}\par
+94 \par
+95         {\cf17 virtual} {\cf18 void} mouseMoveEvent (QMouseEvent *e)\par
+96         \{\par
+97                 QOpenGLWidget::mouseMoveEvent (e);\par
+98 \par
+99                 d_button = 0;\par
+100                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+101                         d_button |= mxEvent::MouseLeftButton;\par
+102                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+103                         d_button |= mxEvent::MouseRightButton;\par
+104                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+105                         d_button |= mxEvent::MouseMiddleButton;\par
+106 \par
+107                 mxEvent event;\par
+108                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+109                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+110                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+111                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+112 \par
+113                 {\cf17 event}.buttons = d_button;\par
+114                 {\cf17 event}.x = e->x ();\par
+115                 {\cf17 event}.y = e->y ();\par
+116 \par
+117                 {\cf19 if} (d_dragging)\par
+118                         {\cf17 event}.event = mxEvent::MouseDrag;\par
+119                 {\cf19 else}\par
+120                         {\cf17 event}.event = mxEvent::MouseMove;\par
+121 \par
+122                 d_GlWindow->handleEvent (&event);\par
+123         \}\par
+124 \par
+125         {\cf17 virtual} {\cf18 void} mouseReleaseEvent (QMouseEvent *e)\par
+126         \{\par
+127                 QOpenGLWidget::mouseReleaseEvent (e);\par
+128                 d_dragging = {\cf17 false};\par
+129 \par
+130                 d_button = 0;\par
+131                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+132                         d_button |= mxEvent::MouseLeftButton;\par
+133                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+134                         d_button |= mxEvent::MouseRightButton;\par
+135                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+136                         d_button |= mxEvent::MouseMiddleButton;\par
+137 \par
+138                 mxEvent event;\par
+139                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+140                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+141                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+142                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+143 \par
+144                 {\cf17 event}.event = mxEvent::MouseUp;\par
+145                 {\cf17 event}.buttons = d_button;\par
+146                 {\cf17 event}.x = e->x ();\par
+147                 {\cf17 event}.y = e->y ();\par
+148 \par
+149                 d_GlWindow->handleEvent (&event);\par
+150                 d_button = 0;\par
+151         \}\par
+152 \par
+153         {\cf17 virtual} {\cf18 void} keyPressEvent (QKeyEvent *e)\par
+154         \{\par
+155                 QOpenGLWidget::keyPressEvent (e);\par
+156 \par
+157                 mxEvent event;\par
+158 \par
+159                 {\cf17 event}.key = tolower (e->key ());\par
+160 \par
+161                 {\cf19 if} (e->modifiers () & Qt::ControlModifier)\par
+162                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+163                 {\cf19 if} (e->modifiers () & Qt::ShiftModifier)\par
+164                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+165 \par
+166                 {\cf17 event}.event = mxEvent::KeyDown;\par
+167                 d_GlWindow->handleEvent (&event);\par
+168         \}\par
+169 \par
+170         {\cf17 virtual} {\cf18 void} timerEvent (QTimerEvent *e)\par
+171         \{\par
+172                 mxEvent event;\par
+173                 {\cf17 event}.event = mxEvent::Timer;\par
+174                 d_GlWindow->handleEvent (&event);\par
+175         {\cf20 //update();}\par
+176         \}\par
+177 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxLineEdit_i.h\par \pard\plain 
+{\tc\tcl2 \v mxLineEdit_i.h}
+{\xe \v mxLineEdit_i.h}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxLineEdit_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxLineEdit.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QLineEdit>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 mxLineEdit_i}}}
+ : {\cf17 public} QLineEdit\par
+21 \{\par
+22         Q_OBJECT\par
+23 \par
+24         mxLineEdit *d_widget;\par
+25 \par
+26 {\cf17 public}:\par
+27         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 mxLineEdit_i}}}
+ (QWidget *parent, mxLineEdit *widget) : QLineEdit (parent)\par
+28         \{\par
+29                 d_widget = widget;\par
+30                 setFrame ({\cf17 true});\par
+31         \}\par
+32 \par
+33         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 ~mxLineEdit_i}}}
+ ()\par
+34         \{\par
+35         \}\par
+36 \par
+37 {\cf17 public} slots:\par
+38         {\cf18 void} textChangedEvent ({\cf17 const} QString &text)\par
+39         \{\par
+40                 {\cf19 if} (d_widget->getId () > 0)\par
+41                 \{\par
+42                         mxWindow *parent = d_widget->getParent ();\par
+43                         mxEvent event;\par
+44                         {\cf17 event}.event = mxEvent::Action;\par
+45                         {\cf17 event}.widget = d_widget;\par
+46                         {\cf17 event}.action = d_widget->getId ();\par
+47                         {\cf19 while} (parent)\par
+48                         \{\par
+49                                 {\cf19 if} (parent->handleEvent (&event))\par
+50                                         {\cf19 break};\par
+51                                 parent = parent->getParent ();\par
+52                         \}\par
+53                 \}\par
+54         \}\par
+55 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxListBox_i.h\par \pard\plain 
+{\tc\tcl2 \v mxListBox_i.h}
+{\xe \v mxListBox_i.h}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxListBox_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxListBox.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QListWidget>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 mxListBox_i}}}
+ : {\cf17 public} QListWidget\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxListBox *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 mxListBox_i}}}
+ (QWidget *parent, mxListBox *widget) : QListWidget (parent)\par
+27         \{\par
+28                 d_widget = widget;\par
+29         \}\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 ~mxListBox_i}}}
+ ()\par
+32         \{\par
+33         \}\par
+34 \par
+35 {\cf17 public} slots:\par
+36         {\cf18 void} selectedEvent ()\par
+37         \{\par
+38                 {\cf19 if} (d_widget->getId () > 0)\par
+39                 \{\par
+40                         mxWindow *parent = d_widget->getParent ();\par
+41                         mxEvent event;\par
+42                         {\cf17 event}.event = mxEvent::Action;\par
+43                         {\cf17 event}.widget = d_widget;\par
+44                         {\cf17 event}.action = d_widget->getId ();\par
+45                         {\cf19 while} (parent)\par
+46                         \{\par
+47                                 {\cf19 if} (d_widget->getParent ()->handleEvent (&event))\par
+48                                         {\cf19 break};\par
+49                                 parent = parent->getParent ();\par
+50                         \}\par
+51                 \}\par
+52         \}\par
+53 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxMenuBar_i.h\par \pard\plain 
+{\tc\tcl2 \v mxMenuBar_i.h}
+{\xe \v mxMenuBar_i.h}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxMenuBar_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxMenuBar.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QMenuBar>}\par
+17 \par
+18 {\cf17 extern} QMap<int, QAction*> g_actionList;\par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 mxMenuBar_i}}}
+ : {\cf17 public} QMenuBar\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxMenuBar *d_widget;\par
+24 {\cf17 public}:\par
+25         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 mxMenuBar_i}}}
+ (QWidget *parent, mxMenuBar *menuBar) : QMenuBar (parent)\par
+26         \{\par
+27                 d_widget = menuBar;\par
+28         \}\par
+29 \par
+30         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ~mxMenuBar_i}}}
+ ()\par
+31         \{\par
+32         \}\par
+33 \par
+34 {\cf17 public} slots:\par
+35         {\cf18 void} activatedEvent (QAction *action)\par
+36         \{\par
+37                 {\cf18 int} itemId = g_actionList.key(action);\par
+38                 {\cf19 if} (itemId > 0)\par
+39                 \{\par
+40                         mxWindow *parent = d_widget->getParent ();\par
+41                         mxEvent event;\par
+42                         {\cf17 event}.event = mxEvent::Action;\par
+43                         {\cf17 event}.action = itemId;\par
+44                         {\cf19 while} (parent)\par
+45                         \{\par
+46                                 {\cf19 if} (parent->handleEvent (&event))\par
+47                                         {\cf19 break};\par
+48                                 parent = parent->getParent ();\par
+49                         \}\par
+50                 \}\par
+51         \}\par
+52 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxPopupMenu_i.h\par \pard\plain 
+{\tc\tcl2 \v mxPopupMenu_i.h}
+{\xe \v mxPopupMenu_i.h}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxPopupMenu_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxPopupMenu.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QMenu>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 mxPopupMenu_i}}}
+ : {\cf17 public} QMenu\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxPopupMenu *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         QMap <int, QAction*> d_actionList;\par
+27         {\cf18 int} d_lastItemId;\par
+28         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 mxPopupMenu_i}}}
+ (mxPopupMenu *popupMenu) : QMenu ()\par
+29         \{\par
+30                 d_widget = popupMenu;\par
+31                 d_lastItemId = -1;\par
+32         \}\par
+33 \par
+34         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 ~mxPopupMenu_i}}}
+ ()\par
+35         \{\par
+36         \}\par
+37 \par
+38 {\cf17 public} slots:\par
+39         {\cf18 void} activatedEvent (QAction *action)\par
+40         \{\par
+41                 d_lastItemId = d_actionList.key(action);\par
+42         \}\par
+43 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxRadioButton_i.h\par \pard\plain 
+{\tc\tcl2 \v mxRadioButton_i.h}
+{\xe \v mxRadioButton_i.h}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxRadioButton_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxRadioButton.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QRadioButton>}\par
+17 {\cf21 #include <QButtonGroup>}\par
+18 \par
+19 \par
+20 \par
+21 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 mxRadioButton_i}}}
+ : {\cf17 public} QRadioButton\par
+22 \{\par
+23         Q_OBJECT\par
+24         mxRadioButton *d_widget;\par
+25         QButtonGroup *d_buttonGroup;\par
+26         {\cf17 static} QButtonGroup *s_buttonGroup;\par
+27 \par
+28 {\cf17 public}:\par
+29         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 mxRadioButton_i}}}
+ (QWidget *parent, mxRadioButton *widget, {\cf18 bool} newGroup) : QRadioButton (parent)\par
+30         \{\par
+31                 d_widget = widget;\par
+32                 d_buttonGroup = 0;\par
+33 \par
+34                 {\cf19 if} (newGroup)\par
+35                 \{\par
+36                         d_buttonGroup = {\cf17 new} QButtonGroup ();\par
+37                         d_buttonGroup->setExclusive ({\cf17 true});\par
+38                         s_buttonGroup = d_buttonGroup;\par
+39                 \}\par
+40 \par
+41                 {\cf19 if} (s_buttonGroup)\par
+42                         s_buttonGroup->addButton ({\cf17 this});\par
+43         \}\par
+44 \par
+45         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABD" }{}}{\fldrslt {\cs37\ul\cf2 ~mxRadioButton_i}}}
+ ()\par
+46         \{\par
+47                 {\cf19 if} (d_buttonGroup)\par
+48                 \{\par
+49                         d_buttonGroup->removeButton ({\cf17 this});\par
+50                 \}\par
+51         \}\par
+52 \par
+53 {\cf17 public} slots:\par
+54         {\cf18 void} clickedEvent ()\par
+55         \{\par
+56                 {\cf19 if} (d_widget->getId () > 0)\par
+57                 \{\par
+58                         mxWindow *parent = d_widget->getParent ();\par
+59                         mxEvent event;\par
+60                         {\cf17 event}.event = mxEvent::Action;\par
+61                         {\cf17 event}.widget = d_widget;\par
+62                         {\cf17 event}.action = d_widget->getId ();\par
+63                         {\cf19 while} (parent)\par
+64                         \{\par
+65                                 {\cf19 if} (parent->handleEvent (&event))\par
+66                                         {\cf19 break};\par
+67                                 parent = parent->getParent ();\par
+68                         \}\par
+69                 \}\par
+70         \}\par
+71 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxSlider_i.h\par \pard\plain 
+{\tc\tcl2 \v mxSlider_i.h}
+{\xe \v mxSlider_i.h}
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxSlider_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxSlider.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QSlider>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 mxSlider_i}}}
+ : {\cf17 public} QSlider\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxSlider *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 mxSlider_i}}}
+ (QWidget *parent, mxSlider *widget) : QSlider (parent)\par
+27         \{\par
+28                 d_widget = widget;\par
+29         \}\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 ~mxSlider_i}}}
+ ()\par
+32         \{\par
+33         \}\par
+34 \par
+35 {\cf17 public} slots:\par
+36         {\cf18 void} valueChangedEvent ({\cf18 int} value)\par
+37         \{\par
+38                 {\cf19 if} (d_widget->getId () > 0)\par
+39                 \{\par
+40                         mxWindow *parent = d_widget->getParent ();\par
+41                         mxEvent event;\par
+42                         {\cf17 event}.event = mxEvent::Action;\par
+43                         {\cf17 event}.widget = d_widget;\par
+44                         {\cf17 event}.action = d_widget->getId ();\par
+45                         {\cf19 while} (parent)\par
+46                         \{\par
+47                                 {\cf19 if} (parent->handleEvent (&event))\par
+48                                         {\cf19 break};\par
+49                                 parent = parent->getParent ();\par
+50                         \}\par
+51                 \}\par
+52         \}\par
+53 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxTab_i.h\par \pard\plain 
+{\tc\tcl2 \v mxTab_i.h}
+{\xe \v mxTab_i.h}
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxTab_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxTab.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QTabWidget>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 mxTab_i}}}
+ : {\cf17 public} QTabWidget\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxTab *d_widget;\par
+24         {\cf18 int} d_currentItem;      \par
+25 \par
+26 {\cf17 public}:\par
+27         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 mxTab_i}}}
+ (QWidget *parent, mxTab *widget) : QTabWidget (parent)\par
+28         \{\par
+29                 d_widget = widget;\par
+30                 d_currentItem = 0;\par
+31         \}\par
+32         \par
+33         {\cf18 void} select ({\cf18 int} index)\par
+34         \{\par
+35                 d_currentItem = index;\par
+36         \}\par
+37 \par
+38         {\cf18 int} getSelectedIndex (){\cf17  const}\par
+39 {\cf17         }\{\par
+40                 {\cf19 return} d_currentItem;\par
+41         \}\par
+42 \par
+43         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 ~mxTab_i}}}
+ ()\par
+44         \{\par
+45         \}\par
+46 \par
+47 {\cf17 public} slots:\par
+48         {\cf18 void} tabBarClickedEvent ({\cf18 int} index)\par
+49         \{\par
+50                 d_currentItem = index;\par
+51 \par
+52                 {\cf19 if} (d_widget->getId () > 0)\par
+53                 \{\par
+54                         mxWindow *parent = d_widget->getParent ();\par
+55                         mxEvent event;\par
+56                         {\cf17 event}.event = mxEvent::Action;\par
+57                         {\cf17 event}.widget = d_widget;\par
+58                         {\cf17 event}.action = d_widget->getId ();\par
+59                         {\cf19 while} (parent)\par
+60                         \{\par
+61                                 {\cf19 if} (parent->handleEvent (&event))\par
+62                                         {\cf19 break};\par
+63                                 parent = parent->getParent ();\par
+64                         \}\par
+65                 \}\par
+66         \}\par
+67 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxToggleButton_i.h\par \pard\plain 
+{\tc\tcl2 \v mxToggleButton_i.h}
+{\xe \v mxToggleButton_i.h}
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxToggleButton_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Mar 19 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxToggleButton.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QPushButton>}\par
+17 \par
+18 \par
+19 \par
+20 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 mxToggleButton_i}}}
+ : {\cf17 public} QPushButton\par
+21 \{\par
+22         Q_OBJECT\par
+23         mxToggleButton *d_widget;\par
+24 \par
+25 {\cf17 public}:\par
+26         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 mxToggleButton_i}}}
+ (QWidget *parent, mxToggleButton *widget) : QPushButton (parent)\par
+27         \{\par
+28                 d_widget = widget;\par
+29         \}\par
+30 \par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 ~mxToggleButton_i}}}
+ () \{\}\par
+32 \par
+33 {\cf17 public} slots:\par
+34         {\cf18 void} clickedEvent ()\par
+35         \{\par
+36                 {\cf19 if} (d_widget->getId () > 0)\par
+37                 \{\par
+38                         mxWindow *parent = d_widget->getParent ();\par
+39                         mxEvent event;\par
+40                         {\cf17 event}.event = mxEvent::Action;\par
+41                         {\cf17 event}.widget = d_widget;\par
+42                         {\cf17 event}.action = d_widget->getId ();\par
+43                         {\cf19 while} (parent)\par
+44                         \{\par
+45                                 {\cf19 if} (parent->handleEvent (&event))\par
+46                                         {\cf19 break};\par
+47                                 parent = parent->getParent ();\par
+48                         \}\par
+49                 \}\par
+50         \}\par
+51 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxTreeView_i.h\par \pard\plain 
+{\tc\tcl2 \v mxTreeView_i.h}
+{\xe \v mxTreeView_i.h}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxTreeView_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Apr 20 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxTreeView.h>}\par
+15 {\cf21 #include <mx/mxWindow.h>}\par
+16 {\cf21 #include <QTreeWidget>}\par
+17 {\cf21 #include <QTreeWidgetItem>}\par
+18 {\cf21 #include <QResizeEvent>}\par
+19 \par
+20 \par
+21 \par
+22 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 mxTreeView_i}}}
+ : {\cf17 public} QTreeWidget\par
+23 \{\par
+24         Q_OBJECT\par
+25         mxTreeView *d_widget;\par
+26 \par
+27 {\cf17 public}:\par
+28         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 mxTreeView_i}}}
+ (QWidget *parent, mxTreeView *widget) : QTreeWidget (parent)\par
+29         \{\par
+30                 d_widget = widget;\par
+31         \}\par
+32 \par
+33         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 ~mxTreeView_i}}}
+ ()\par
+34         \{\par
+35         \}\par
+36 \par
+37 {\cf17 protected}:\par
+38         {\cf17 virtual} {\cf18 void} resizeEvent (QResizeEvent *event)\par
+39         \{\par
+40                 setColumnWidth (0, event->size ().width ());\par
+41                 QTreeWidget::resizeEvent (event);\par
+42         \}\par
+43 \par
+44         {\cf17 virtual} {\cf18 void} mousePressEvent (QMouseEvent *event) \par
+45         \{\par
+46                 {\cf19 if} (event->button() == Qt::RightButton)\par
+47                 \{\par
+48                         emit rightButtonClickedEvent(event->pos());\par
+49                 \}\par
+50                 QTreeWidget::mousePressEvent(event);\par
+51         \}\par
+52 \par
+53 {\cf17 public} slots:\par
+54         {\cf18 void} selectionChangedEvent ()\par
+55         \{\par
+56                 {\cf19 if} (d_widget->getId () > 0)\par
+57                 \{\par
+58                         mxWindow *parent = ((mxWidget *) d_widget)->getParent ();\par
+59                         mxEvent event;\par
+60                         {\cf17 event}.event = mxEvent::Action;\par
+61                         {\cf17 event}.widget = d_widget;\par
+62                         {\cf17 event}.action = d_widget->getId ();\par
+63                         {\cf19 while} (parent)\par
+64                         \{\par
+65                                 {\cf19 if} (parent->handleEvent (&event))\par
+66                                         {\cf19 break};\par
+67                                 parent = parent->getParent ();\par
+68                         \}\par
+69                 \}\par
+70         \}\par
+71         \par
+72         {\cf18 void} doubleClickedEvent (QTreeWidgetItem *item, {\cf18 int} column)\par
+73         \{\par
+74                 {\cf19 if} (d_widget->getId () > 0)\par
+75                 \{\par
+76                         mxWindow *parent = ((mxWidget *) d_widget)->getParent ();\par
+77                         mxEvent event;\par
+78                         {\cf17 event}.event = mxEvent::Action;\par
+79                         {\cf17 event}.widget = d_widget;\par
+80                         {\cf17 event}.action = d_widget->getId ();\par
+81                         {\cf17 event}.flags = mxEvent::DoubleClicked;\par
+82                         {\cf19 while} (parent)\par
+83                         \{\par
+84                                 {\cf19 if} (parent->handleEvent (&event))\par
+85                                         {\cf19 break};\par
+86                                 parent = parent->getParent ();\par
+87                         \}\par
+88                 \}\par
+89         \}\par
+90         \par
+91         {\cf18 void} rightButtonClickedEvent ({\cf17 const} QPoint &pos)\par
+92         \{\par
+93                 {\cf19 if} (d_widget->getId () > 0)\par
+94                 \{\par
+95                         mxWindow *parent = ((mxWidget *) d_widget)->getParent ();\par
+96                         mxEvent event;\par
+97                         {\cf17 event}.event = mxEvent::Action;\par
+98                         {\cf17 event}.widget = d_widget;\par
+99                         {\cf17 event}.action = d_widget->getId ();\par
+100                         {\cf17 event}.flags = mxEvent::RightClicked;\par
+101                         QPoint point = pos;{\cf20 //mapFromGlobal (pos);                       }\par
+102                         {\cf17 event}.x = point.x ();\par
+103                         {\cf17 event}.y = point.y ();\par
+104                         {\cf19 while} (parent)\par
+105                         \{\par
+106                                 {\cf19 if} (parent->handleEvent (&event))\par
+107                                         {\cf19 break};\par
+108                                 parent = parent->getParent ();\par
+109                         \}\par
+110                 \}\par
+111         \}\par
+112 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mxWindow_i.h\par \pard\plain 
+{\tc\tcl2 \v mxWindow_i.h}
+{\xe \v mxWindow_i.h}
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 //}\par
+2 {\cf20 //                 mxToolKit (c) 1999 by Mete Ciragan}\par
+3 {\cf20 //}\par
+4 {\cf20 // file:           mxWindow_i.h}\par
+5 {\cf20 // implementation: Qt Free Edition}\par
+6 {\cf20 // last modified:  Apr 20 1999, Mete Ciragan}\par
+7 {\cf20 // copyright:      The programs and associated files contained in this}\par
+8 {\cf20 //                 distribution were developed by Mete Ciragan. The programs}\par
+9 {\cf20 //                 are not in the public domain, but they are freely}\par
+10 {\cf20 //                 distributable without licensing fees. These programs are}\par
+11 {\cf20 //                 provided without guarantee or warrantee expressed or}\par
+12 {\cf20 //                 implied.}\par
+13 {\cf20 //}\par
+14 {\cf21 #include <mx/mxWindow.h>}\par
+15 {\cf21 #include <mx/mx.h>}\par
+16 {\cf21 #include <QResizeEvent>}\par
+17 {\cf21 #include <QMainWindow>}\par
+18 {\cf21 #include <QMenuBar>}\par
+19 {\cf21 #include <QApplication>}\par
+20 \par
+21 \par
+22 \par
+23 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 mxWindow_i}}}
+ : {\cf17 public} QMainWindow\par
+24 \{\par
+25         Q_OBJECT\par
+26         mxWindow *d_window;\par
+27         {\cf18 bool} d_dragging;\par
+28         {\cf18 int} d_button;\par
+29         {\cf18 int} d_timerId;\par
+30 {\cf17 public}:\par
+31         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 mxWindow_i}}}
+ (QWidget *parent, mxWindow *window) : QMainWindow ((QMainWindow *)parent)\par
+32         \{\par
+33                 d_window = window;\par
+34                 d_dragging = {\cf17 false};\par
+35                 d_button = 0;\par
+36                 d_timerId = 0;\par
+37                 {\cf20 //setMouseGrabEnabled(true);}\par
+38                 setMouseTracking ({\cf17 true});\par
+39                 installEventFilter ({\cf17 this});\par
+40         \}\par
+41 \par
+42         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 ~mxWindow_i}}}
+ ()\par
+43         \{\par
+44         \}\par
+45 \par
+46         {\cf18 void} setTimerId({\cf18 int} timerId)\par
+47         \{\par
+48                 d_timerId = timerId;\par
+49         \}\par
+50 \par
+51         {\cf18 int} getTimerId()\par
+52         \{\par
+53                 {\cf19 return} d_timerId;\par
+54         \}\par
+55 {\cf17 public} slots:\par
+56         {\cf18 void} idleEvent ()\par
+57         \{\par
+58                 mxEvent event;\par
+59                 {\cf17 event}.event = mxEvent::Idle;\par
+60                 d_window->handleEvent (&event);\par
+61         \}\par
+62         \par
+63 {\cf17 protected}:\par
+64         {\cf17 virtual} {\cf18 void} resizeEvent (QResizeEvent *e)\par
+65         \{\par
+66                 QMainWindow::resizeEvent (e);\par
+67                 mxEvent event;\par
+68                 {\cf17 event}.event = mxEvent::Size;\par
+69                 {\cf17 event}.width = e->size ().width ();\par
+70                 {\cf17 event}.height = e->size ().height ();\par
+71                 d_window->handleEvent (&event);\par
+72         \}\par
+73 \par
+74         {\cf17 virtual} {\cf18 void} mousePressEvent (QMouseEvent *e)\par
+75         \{\par
+76                 QMainWindow::mousePressEvent (e);\par
+77                 d_dragging = {\cf17 true};\par
+78 \par
+79                 d_button = 0;\par
+80                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+81                         d_button |= mxEvent::MouseLeftButton;\par
+82                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+83                         d_button |= mxEvent::MouseRightButton;\par
+84                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+85                         d_button |= mxEvent::MouseMiddleButton;\par
+86                 \par
+87                 mxEvent event;\par
+88                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+89                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+90                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+91                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+92                 {\cf17 event}.event = mxEvent::MouseDown;\par
+93                 {\cf17 event}.buttons = d_button;\par
+94                 {\cf17 event}.x = e->x ();\par
+95                 {\cf17 event}.y = e->y ();\par
+96                 d_window->handleEvent (&event);\par
+97         \}\par
+98 \par
+99         {\cf17 virtual} {\cf18 void} mouseMoveEvent (QMouseEvent *e)\par
+100         \{\par
+101                 QMainWindow::mouseMoveEvent (e);\par
+102 \par
+103                 d_button = 0;\par
+104                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+105                         d_button |= mxEvent::MouseLeftButton;\par
+106                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+107                         d_button |= mxEvent::MouseRightButton;\par
+108                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+109                         d_button |= mxEvent::MouseMiddleButton;\par
+110                 \par
+111                 mxEvent event;\par
+112                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+113                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+114                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+115                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+116 \par
+117                 {\cf17 event}.buttons = d_button;\par
+118                 {\cf17 event}.x = e->x ();\par
+119                 {\cf17 event}.y = e->y ();\par
+120                 \par
+121                 {\cf19 if} (d_dragging)\par
+122                         {\cf17 event}.event = mxEvent::MouseDrag;\par
+123                 {\cf19 else}\par
+124                         {\cf17 event}.event = mxEvent::MouseMove;\par
+125                         \par
+126                 d_window->handleEvent (&event);\par
+127         \}\par
+128 \par
+129         {\cf17 virtual} {\cf18 void} mouseReleaseEvent (QMouseEvent *e)\par
+130         \{\par
+131                 QMainWindow::mouseReleaseEvent (e);\par
+132                 d_dragging = {\cf17 false};\par
+133                 d_button = 0;\par
+134                 \par
+135                 {\cf19 if} (e->buttons () & Qt::LeftButton)\par
+136                         d_button |= mxEvent::MouseLeftButton;\par
+137                 {\cf19 if} (e->buttons () & Qt::RightButton)\par
+138                         d_button |= mxEvent::MouseRightButton;\par
+139                 {\cf19 if} (e->buttons () & Qt::MidButton)\par
+140                         d_button |= mxEvent::MouseMiddleButton;\par
+141                 \par
+142                 mxEvent event;\par
+143                 {\cf19 if} (e->buttons () & Qt::ControlModifier)\par
+144                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+145                 {\cf19 if} (e->buttons () & Qt::ShiftModifier)\par
+146                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+147 \par
+148                 {\cf17 event}.event = mxEvent::MouseUp;\par
+149                 {\cf17 event}.buttons = d_button;\par
+150                 {\cf17 event}.x = e->x ();\par
+151                 {\cf17 event}.y = e->y ();\par
+152                 \par
+153                 d_window->handleEvent (&event);\par
+154                 d_button = 0;\par
+155         \}\par
+156         \par
+157         {\cf17 virtual} {\cf18 void} keyPressEvent (QKeyEvent *e)\par
+158         \{\par
+159                 QMainWindow::keyPressEvent (e);\par
+160 \par
+161                 mxEvent event;\par
+162 \par
+163                 {\cf17 event}.key = tolower (e->key ());\par
+164 \par
+165                 {\cf19 if} (e->modifiers () & Qt::ControlModifier)\par
+166                         {\cf17 event}.modifiers |= mxEvent::KeyCtrl;\par
+167                 {\cf19 if} (e->modifiers () & Qt::ShiftModifier)\par
+168                         {\cf17 event}.modifiers |= mxEvent::KeyShift;\par
+169 \par
+170                 {\cf17 event}.event = mxEvent::KeyDown;\par
+171                 d_window->handleEvent (&event);\par
+172         \}\par
+173 \par
+174         {\cf17 virtual} {\cf18 void} timerEvent (QTimerEvent *e)\par
+175         \{\par
+176                 mxEvent event;\par
+177                 {\cf17 event}.event = mxEvent::Timer;\par
+178                 d_window->handleEvent (&event);\par
+179         \}\par
+180 \};\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+RCWindow.h\par \pard\plain 
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //}\par
+3 {\cf20 //}\par
+4 {\cf20 //}\par
+5 {\cf20 // file: RCWindow.h}\par
+6 {\cf20 // last modified:}\par
+7 {\cf20 // copyright:}\par
+8 {\cf20 // version:}\par
+9 {\cf20 //}\par
+10 {\cf20 // email:}\par
+11 {\cf20 // web:}\par
+12 {\cf20 //}\par
+13 {\cf20 */}\par
+14 \par
+15 {\cf21 #ifndef INCLUDED_RCWINDOW}\par
+16 {\cf21 #define INCLUDED_RCWINDOW}\par
+17 \par
+18 \par
+19 \par
+20 {\cf21 #ifndef INCLUDED_MXWINDOW}\par
+21 {\cf21 #include <mx/mxWindow.h>}\par
+22 {\cf21 #endif}\par
+23 \par
+24 {\cf20 //#include "CmdLine.h"}\par
+25 \par
+26 {\cf21 #define IDC_FILE_EXIT                   1017}\par
+27 \par
+28 {\cf21 #define IDC_ACTION_CONNECT              1101}\par
+29 {\cf21 #define IDC_ACTION_DISCONNECT   1102}\par
+30 {\cf21 #define IDC_ACTION_INFO         1103}\par
+31 {\cf21 #define IDC_ACTION_UNDO         1104}\par
+32 {\cf21 #define IDC_ACTION_REDO         1105}\par
+33 {\cf21 #define IDC_ACTION_CLS          1106}\par
+34 {\cf21 #define IDC_ACTION_REFRESH      1107}\par
+35 \par
+36 {\cf21 #define IDC_HELP_GOTOHOMEPAGE   1301}\par
+37 {\cf21 #define IDC_HELP_ABOUT                  1302}\par
+38 \par
+39 {\cf20 //for window}\par
+40 {\cf21 #define X_RESOLUTION 640}\par
+41 {\cf21 #define Y_RESOLUTION 540}\par
+42 \par
+43 \par
+44 {\cf17 class }mxMenuBar;\par
+45 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+;\par
+46 \par
+47 \par
+48 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 RCWindow}}}
+ : {\cf17 public} mxWindow\par
+49 \{\par
+50 {\cf17 public}:\par
+51         {\cf20 // CREATORS}\par
+52         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 RCWindow}}}
+ ();\par
+53         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 ~RCWindow}}}
+ ();\par
+54 \par
+55         {\cf20 // MANIPULATORS}\par
+56         {\cf17 virtual} {\cf18 int} handleEvent (mxEvent *event);\par
+57 {\cf20 //      void checkboxSet( int id, bool bState );}\par
+58         {\cf18 void} redraw ();\par
+59 \par
+60         {\cf20 // ACCESSORS}\par
+61         mxMenuBar *getMenuBar (){\cf17  const }\{ {\cf19 return} mb; \}\par
+62         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ *getGlWindow (){\cf17  const }\{ {\cf19 return} d_GlWindow; \}\par
+63 \par
+64 {\cf17 private}:\par
+65     mxMenuBar *mb;\par
+66         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ *d_GlWindow;\par
+67 {\cf20 //    line_t PrevLine;}\par
+68 {\cf20 //    drawlines_t Buffer;}\par
+69 \};\par
+70 \par
+71 {\cf17 extern} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 RCWindow}}}
+ *g_RCWindow;\par
+72 {\cf20 //extern char g_appTitle[];}\par
+73 \par
+74 {\cf21 #endif }{\cf20 // INCLUDED_MDLVIEWER}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SDWindow.h\par \pard\plain 
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //}\par
+3 {\cf20 //}\par
+4 {\cf20 //}\par
+5 {\cf20 // file: SDWindow.h}\par
+6 {\cf20 // last modified:}\par
+7 {\cf20 // copyright:}\par
+8 {\cf20 // version:}\par
+9 {\cf20 //}\par
+10 {\cf20 // email:}\par
+11 {\cf20 // web:}\par
+12 {\cf20 //}\par
+13 {\cf20 */}\par
+14 \par
+15 {\cf21 #ifndef INCLUDED_SDWINDOW}\par
+16 {\cf21 #define INCLUDED_SDWINDOW}\par
+17 \par
+18 \par
+19 \par
+20 {\cf21 #ifndef INCLUDED_MXWINDOW}\par
+21 {\cf21 #include <mx/mxWindow.h>}\par
+22 {\cf21 #endif}\par
+23 \par
+24 {\cf20 //#include "CmdLine.h"}\par
+25 \par
+26 {\cf21 #define IDC_FILE_EXIT                   1017}\par
+27 \par
+28 {\cf21 #define IDC_ACTION_CONNECT              1101}\par
+29 {\cf21 #define IDC_ACTION_DISCONNECT   1102}\par
+30 {\cf21 #define IDC_ACTION_INFO         1103}\par
+31 {\cf21 #define IDC_ACTION_UNDO         1104}\par
+32 {\cf21 #define IDC_ACTION_REDO         1105}\par
+33 {\cf21 #define IDC_ACTION_CLS          1106}\par
+34 {\cf21 #define IDC_ACTION_REFRESH      1107}\par
+35 \par
+36 {\cf21 #define IDC_HELP_GOTOHOMEPAGE   1301}\par
+37 {\cf21 #define IDC_HELP_ABOUT                  1302}\par
+38 \par
+39 {\cf20 //for window}\par
+40 {\cf21 #define X_RESOLUTION 640}\par
+41 {\cf21 #define Y_RESOLUTION 540}\par
+42 \par
+43 \par
+44 {\cf17 class }mxMenuBar;\par
+45 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+;\par
+46 \par
+47 \par
+48 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 SDWindow}}}
+ : {\cf17 public} mxWindow\par
+49 \{\par
+50 {\cf17 public}:\par
+51         {\cf20 // CREATORS}\par
+52         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 SDWindow}}}
+ ();\par
+53         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 ~SDWindow}}}
+ ();\par
+54 \par
+55         {\cf20 // MANIPULATORS}\par
+56         {\cf17 virtual} {\cf18 int} handleEvent (mxEvent *event);\par
+57 {\cf20 //      void checkboxSet( int id, bool bState );}\par
+58         {\cf18 void} redraw ();\par
+59 \par
+60         {\cf20 // ACCESSORS}\par
+61         mxMenuBar *getMenuBar (){\cf17  const }\{ {\cf19 return} mb; \}\par
+62         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ *getGlWindow (){\cf17  const }\{ {\cf19 return} d_GlWindow; \}\par
+63 \par
+64 {\cf17 private}:\par
+65     mxMenuBar *mb;\par
+66         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 GlWindow}}}
+ *d_GlWindow;\par
+67 {\cf20 //    line_t PrevLine;}\par
+68 {\cf20 //    drawlines_t Buffer;}\par
+69 \};\par
+70 \par
+71 {\cf17 extern} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 SDWindow}}}
+ *g_SDWindow;\par
+72 {\cf20 //extern char g_appTitle[];}\par
+73 \par
+74 {\cf21 #endif }{\cf20 // INCLUDED_MDLVIEWER}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+server.h\par \pard\plain 
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 {\cf20 /*}\par
+11 {\cf20 }\par
+12 {\cf20 frame structure}\par
+13 {\cf20 |0|D0|D1|D2|D3|D4|D5|D6|D7|1|1|}\par
+14 {\cf20 data packet structure}\par
+15 {\cf20 |0|length of data|-data-|-|crc16byte0|crc16byte1|}\par
+16 {\cf20 ACK (acknowledge) packet structure}\par
+17 {\cf20 |6|crc16byte0|crc16byte1|}\par
+18 {\cf20 }\par
+19 {\cf20 */}\par
+20 \par
+21 \par
+22 {\cf21 #ifndef __SERVER__}\par
+23 {\cf21 #define __SERVER__}\par
+24 \par
+25 \par
+26 {\cf20 /*}\par
+27 {\cf20 // server.h}\par
+28 {\cf20 */}\par
+29 \par
+30 \par
+31 {\cf21 #ifdef __cplusplus}\par
+32 {\cf17 extern} {\cf22 "C"}\par
+33 \{\par
+34 {\cf21 #endif}\par
+35 \par
+36 {\cf17 extern} {\cf18 int} flag_server_ready;\par
+37 {\cf17 extern} {\cf18 int} flag_server_isdumping;\par
+38 \par
+39 {\cf18 void} SV_insert_msg({\cf18 unsigned} {\cf18 char} *msg);\par
+40 {\cf18 int} SV_insert_msg_nb({\cf18 unsigned} {\cf18 char} *msg);\par
+41 \par
+42 {\cf18 void} server_main();\par
+43 \par
+44 {\cf21 #ifdef __cplusplus}\par
+45 \}\par
+46 {\cf21 #endif}\par
+47 \par
+48 \par
+49 {\cf21 #endif  }{\cf20 /*__SERVER__*/}{\cf21 }\par
+50 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+shared.h\par \pard\plain 
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 \par
+11 {\cf21 #ifndef __SHARED__}\par
+12 {\cf21 #define __SHARED__}\par
+13 \par
+14 \par
+15 {\cf20 /*}\par
+16 {\cf20 // shared.h}\par
+17 {\cf20 */}\par
+18 \par
+19 \par
+20 {\cf21 #ifdef __cplusplus}\par
+21 {\cf17 extern} {\cf22 "C"}\par
+22 \{\par
+23 {\cf21 #endif}\par
+24 \par
+25 \par
+26 {\cf21 #ifndef __BUFFER__}\par
+27 {\cf21 #include "buffer.h"}\par
+28 {\cf21 #endif  }{\cf20 /*__BUFFER__*/}{\cf21 }\par
+29 \par
+30 {\cf21 #ifndef __CMDUTIL__}\par
+31 {\cf21 #include "cmdlib.h"}\par
+32 {\cf21 #endif  }{\cf20 /*__CMDUTIL__*/}{\cf21 }\par
+33 \par
+34 \par
+35 {\cf21 #define BUFFER_SIZE     32  }{\cf20 /* size must be 2 ^ n */}{\cf21 }\par
+36 {\cf21 #define BAUD_RATE       10 }{\cf20 /* This is timespan not rate */}{\cf21 }\par
+37 {\cf21 #define _SCAN_TIME_SPAN (BAUD_RATE / 10)}\par
+38 \par
+39 {\cf21 #define MAX_MSG_LENGTH  (BUFFER_SIZE - 4)  }{\cf20 /* BUFFER_SIZE - 4 */}{\cf21 }\par
+40 \par
+41 {\cf21 #ifdef _SLOW}\par
+42 {\cf21 #define MAX_WAIT_TIMES  (BUFFER_SIZE + 6) * 22}\par
+43 {\cf21 #elif defined _SLOWX2}\par
+44 {\cf21 #define MAX_WAIT_TIMES  (BUFFER_SIZE + 6) * 33}\par
+45 {\cf21 #else}\par
+46 {\cf21 #define MAX_WAIT_TIMES  (BUFFER_SIZE + 6) * 11}\par
+47 {\cf21 #endif}\par
+48 \par
+49 {\cf21 #ifdef _SERVER}\par
+50 {\cf21 #define TX              4}\par
+51 {\cf21 #define RX              17}\par
+52 {\cf21 #else}\par
+53 {\cf21 #define TX              17}\par
+54 {\cf21 #define RX              4}\par
+55 {\cf21 #endif }{\cf20 /*// _SERVER*/}{\cf21 }\par
+56 \par
+57 {\cf17 extern} {\cf18 int} flag_sender_ready;\par
+58 \par
+59 {\cf17 extern} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ sender_buffer;\par
+60 \par
+61 {\cf18 void} SD_buffer_put({\cf18 byte} elem);\par
+62 {\cf18 void} SD_print_buffer();\par
+63 {\cf18 void} SD_flush_buffer();\par
+64 \par
+65 {\cf18 void} sender_main();\par
+66 \par
+67 {\cf20 /******************************/}\par
+68 \par
+69 {\cf17 extern} {\cf18 int} flag_receiver_ready;\par
+70 \par
+71 {\cf17 extern} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 ring_buffer}}}
+ receiver_buffer;\par
+72 \par
+73 {\cf18 byte} RC_buffer_get();\par
+74 {\cf18 void} RC_print_buffer();\par
+75 {\cf18 void} RC_flush_buffer();\par
+76 \par
+77 {\cf18 void} receiver_main();\par
+78 \par
+79 {\cf20 /******************************/}\par
+80 \par
+81 {\cf17 extern} {\cf18 int} mxargc;\par
+82 {\cf17 extern} {\cf18 char} **mxargv;\par
+83 \par
+84 {\cf21 #ifdef __cplusplus}\par
+85 \}\par
+86 {\cf21 #endif}\par
+87 \par
+88 \par
+89 {\cf21 #endif  }{\cf20 /*__SHARED__*/}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+softgpio.h\par \pard\plain 
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /*}\par
+2 {\cf20 //=============================================================================}\par
+3 {\cf20 //}\par
+4 {\cf20 // Purpose:}\par
+5 {\cf20 //}\par
+6 {\cf20 // $NoKeywords: $}\par
+7 {\cf20 //=============================================================================}\par
+8 {\cf20 */}\par
+9 \par
+10 \par
+11 {\cf21 #ifndef __SOFTGPIO__}\par
+12 {\cf21 #define __SOFTGPIO__}\par
+13 \par
+14 \par
+15 {\cf20 /*}\par
+16 {\cf20 // softgpio.h}\par
+17 {\cf20 */}\par
+18 \par
+19 \par
+20 {\cf21 #ifdef __cplusplus}\par
+21 {\cf17 extern} {\cf22 "C"}\par
+22 \{\par
+23     {\cf17 namespace }softgpio \{\par
+24 {\cf21 #endif}\par
+25 \par
+26 {\cf21 #ifdef _SOFTGPIO}\par
+27 \par
+28 \par
+29 {\cf21 #define INPUT                    0}\par
+30 {\cf21 #define OUTPUT                   1}\par
+31 {\cf21 #define PWM_OUTPUT               2}\par
+32 {\cf21 #define GPIO_CLOCK               3}\par
+33 {\cf21 #define SOFT_PWM_OUTPUT          4}\par
+34 {\cf21 #define SOFT_TONE_OUTPUT         5}\par
+35 {\cf21 #define PWM_TONE_OUTPUT          6}\par
+36 \par
+37 \par
+38 {\cf21 #define LOW                          0}\par
+39 {\cf21 #define HIGH                     1}\par
+40 \par
+41 \par
+42 {\cf18 int} wiringPiSetup( {\cf18 void} );\par
+43 {\cf18 int} wiringPiSetupGpio( {\cf18 void} );\par
+44 {\cf18 void} pinMode({\cf18 int} pin, {\cf18 int} mode);\par
+45 \par
+46 {\cf18 int} digitalRead({\cf18 int} pin);\par
+47 \par
+48 {\cf18 void} digitalWrite({\cf18 int} pin, {\cf18 int} value);\par
+49 \par
+50 {\cf18 void} delay({\cf18 unsigned} {\cf18 int} howLong);\par
+51 {\cf18 void} delayMicroseconds({\cf18 unsigned} {\cf18 int} howLong);\par
+52 \par
+53 \par
+54 {\cf21 #ifdef __cplusplus}\par
+55     \} {\cf20 //namespace softgpio}\par
+56 \}\par
+57 {\cf21 #endif}\par
+58 \par
+59 {\cf21 #endif }{\cf20 /* _SOFTGPIO */}{\cf21 }\par
+60 \par
+61 \par
+62 {\cf21 #endif  }{\cf20 /*__SOFTGPIO__*/}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+threads.h\par \pard\plain 
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /***}\par
+2 {\cf20 *}\par
+3 {\cf20 *       Copyright (c) 1996-2002, Valve LLC. All rights reserved.}\par
+4 {\cf20 *}\par
+5 {\cf20 *       This product contains software technology licensed from Id}\par
+6 {\cf20 *       Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc.}\par
+7 {\cf20 *       All Rights Reserved.}\par
+8 {\cf20 *}\par
+9 {\cf20 ****/}\par
+10 \par
+11 {\cf20 /* thread.h */}\par
+12 \par
+13 {\cf20 /*}\par
+14 {\cf20 =================}\par
+15 {\cf20 last modified: 2023/3/25}\par
+16 {\cf20 =================}\par
+17 {\cf20 */}\par
+18 \par
+19 {\cf21 #ifndef __THREADS__}\par
+20 {\cf21 #define __THREADS__}\par
+21 \par
+22 {\cf21 #ifdef __cplusplus}\par
+23 {\cf17 extern} {\cf22 "C"}\par
+24 \{\par
+25 {\cf21 #endif}\par
+26 \par
+27 {\cf17 extern}  {\cf18 int}             numthreads;\par
+28 \par
+29 {\cf18 void} ThreadSetDefault ({\cf18 void});\par
+30 {\cf18 int}     GetThreadWork ({\cf18 void});\par
+31 {\cf18 void} RunThreadsOnIndividual ({\cf18 int} workcnt, qboolean showpacifier, {\cf18 void}(*func)({\cf18 int}));\par
+32 {\cf18 void} RunThreadsOn ({\cf18 int} workcnt, qboolean showpacifier, {\cf18 void}(*func)({\cf18 int}));\par
+33 {\cf18 void} ThreadLock ({\cf18 void});\par
+34 {\cf18 void} ThreadUnlock ({\cf18 void});\par
+35 \par
+36 {\cf21 #ifndef NO_THREAD_NAMES}\par
+37 {\cf21 #define RunThreadsOn(n,p,f) \{ if (p) printf("%-20s "}, #f ":"); RunThreadsOn(n,p,f); \}\par
+38 {\cf21 #define RunThreadsOnIndividual(n,p,f) \{ if (p) printf("%-20s "}, #f ":"); RunThreadsOnIndividual(n,p,f); \}\par
+39 {\cf21 #endif}\par
+40 \par
+41 \par
+42 \par
+43 \par
+44 \par
+45 {\cf21 #ifdef __cplusplus}\par
+46 \}\par
+47 {\cf21 #endif}\par
+48 \par
+49 {\cf21 #endif }{\cf20 /*__THREADS__*/}{\cf21 }\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

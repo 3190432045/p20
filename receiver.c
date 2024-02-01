@@ -64,7 +64,9 @@ void RC_flush_buffer()
 
 void receiver_init()
 {
-    wiringPiSetup();
+    for(; !flag_sender_ready;)
+        delay(BAUD_RATE);
+    /*wiringPiSetup();*/
     pinMode(RX, INPUT);
 
 #ifdef _DEBUG

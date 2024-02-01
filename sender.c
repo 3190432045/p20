@@ -60,7 +60,8 @@ void SD_flush_buffer()
 
 void sender_init()
 {
-    wiringPiSetup();
+    /*wiringPiSetup();*/
+    wiringPiSetupGpio();
     pinMode(TX, OUTPUT);
 
 #ifdef _DEBUG

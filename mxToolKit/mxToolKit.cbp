@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mxToolKit" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mxToolKit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mxToolKit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../common/mxBmp.cpp" />
+		<Unit filename="../common/mxPath.cpp" />
+		<Unit filename="../common/mxPcx.cpp" />
+		<Unit filename="../common/mxShellExec.cpp" />
+		<Unit filename="../common/mxSound.cpp" />
+		<Unit filename="../common/mxString.cpp" />
+		<Unit filename="../common/mxTga.cpp" />
+		<Unit filename="../mx/gl.h" />
+		<Unit filename="../mx/mx.h" />
+		<Unit filename="../mx/mxAccelerator.h" />
+		<Unit filename="../mx/mxBmp.h" />
+		<Unit filename="../mx/mxButton.h" />
+		<Unit filename="../mx/mxCheckBox.h" />
+		<Unit filename="../mx/mxChoice.h" />
+		<Unit filename="../mx/mxChooseColor.h" />
+		<Unit filename="../mx/mxEvent.h" />
+		<Unit filename="../mx/mxFileDialog.h" />
+		<Unit filename="../mx/mxGlWindow.h" />
+		<Unit filename="../mx/mxGroupBox.h" />
+		<Unit filename="../mx/mxImage.h" />
+		<Unit filename="../mx/mxInit.h" />
+		<Unit filename="../mx/mxLabel.h" />
+		<Unit filename="../mx/mxLineEdit.h" />
+		<Unit filename="../mx/mxLinkedList.h" />
+		<Unit filename="../mx/mxListBox.h" />
+		<Unit filename="../mx/mxMenu.h" />
+		<Unit filename="../mx/mxMenuBar.h" />
+		<Unit filename="../mx/mxMessageBox.h" />
+		<Unit filename="../mx/mxMultiLineEdit.h" />
+		<Unit filename="../mx/mxPath.h" />
+		<Unit filename="../mx/mxPcx.h" />
+		<Unit filename="../mx/mxPopupMenu.h" />
+		<Unit filename="../mx/mxProgressBar.h" />
+		<Unit filename="../mx/mxRadioButton.h" />
+		<Unit filename="../mx/mxSettings.h" />
+		<Unit filename="../mx/mxShellExec.h" />
+		<Unit filename="../mx/mxSlider.h" />
+		<Unit filename="../mx/mxSound.h" />
+		<Unit filename="../mx/mxString.h" />
+		<Unit filename="../mx/mxTab.h" />
+		<Unit filename="../mx/mxTga.h" />
+		<Unit filename="../mx/mxToggleButton.h" />
+		<Unit filename="../mx/mxToolTip.h" />
+		<Unit filename="../mx/mxTreeView.h" />
+		<Unit filename="../mx/mxWidget.h" />
+		<Unit filename="../mx/mxWindow.h" />
+		<Unit filename="../qt/mx.cpp" />
+		<Unit filename="../qt/mxButton.cpp" />
+		<Unit filename="../qt/mxButton_i.h" />
+		<Unit filename="../qt/mxCheckBox.cpp" />
+		<Unit filename="../qt/mxCheckBox_i.h" />
+		<Unit filename="../qt/mxChoice.cpp" />
+		<Unit filename="../qt/mxChoice_i.h" />
+		<Unit filename="../qt/mxChooseColor.cpp" />
+		<Unit filename="../qt/mxFileDialog.cpp" />
+		<Unit filename="../qt/mxGlWindow.cpp" />
+		<Unit filename="../qt/mxGlWindow_i.h" />
+		<Unit filename="../qt/mxGroupBox.cpp" />
+		<Unit filename="../qt/mxLabel.cpp" />
+		<Unit filename="../qt/mxLineEdit.cpp" />
+		<Unit filename="../qt/mxLineEdit_i.h" />
+		<Unit filename="../qt/mxListBox.cpp" />
+		<Unit filename="../qt/mxListBox_i.h" />
+		<Unit filename="../qt/mxMenu.cpp" />
+		<Unit filename="../qt/mxMenuBar.cpp" />
+		<Unit filename="../qt/mxMenuBar_i.h" />
+		<Unit filename="../qt/mxMessageBox.cpp" />
+		<Unit filename="../qt/mxPopupMenu.cpp" />
+		<Unit filename="../qt/mxPopupMenu_i.h" />
+		<Unit filename="../qt/mxProgressBar.cpp" />
+		<Unit filename="../qt/mxRadioButton.cpp" />
+		<Unit filename="../qt/mxRadioButton_i.h" />
+		<Unit filename="../qt/mxSettings.cpp" />
+		<Unit filename="../qt/mxSlider.cpp" />
+		<Unit filename="../qt/mxSlider_i.h" />
+		<Unit filename="../qt/mxTab.cpp" />
+		<Unit filename="../qt/mxTab_i.h" />
+		<Unit filename="../qt/mxToggleButton.cpp" />
+		<Unit filename="../qt/mxToggleButton_i.h" />
+		<Unit filename="../qt/mxToolTip.cpp" />
+		<Unit filename="../qt/mxTreeView.cpp" />
+		<Unit filename="../qt/mxTreeView_i.h" />
+		<Unit filename="../qt/mxWidget.cpp" />
+		<Unit filename="../qt/mxWindow.cpp" />
+		<Unit filename="../qt/mxWindow_i.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

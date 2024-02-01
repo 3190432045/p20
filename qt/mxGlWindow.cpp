@@ -62,7 +62,6 @@ mxGlWindow::redraw ()
 		swapBuffers ();
 	}
 	// update() is not called if use mxEvent::Timer rather than mxEvent::Idle
-	update();
 }
 
 

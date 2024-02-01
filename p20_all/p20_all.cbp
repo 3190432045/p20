@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="p20_all" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/p20_all" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/p20_all" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../CmdLine.h" />
+		<Unit filename="../GlPainter.cpp" />
+		<Unit filename="../GlPainter.h" />
+		<Unit filename="../GlWindow.cpp" />
+		<Unit filename="../GlWindow.h" />
+		<Unit filename="../RCWindow.cpp" />
+		<Unit filename="../RCWindow.h" />
+		<Unit filename="../SDWindow.cpp" />
+		<Unit filename="../SDWindow.h" />
+		<Unit filename="../action.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../action.h" />
+		<Unit filename="../buffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../buffer.h" />
+		<Unit filename="../client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../client.h" />
+		<Unit filename="../cmdlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../cmdlib.h" />
+		<Unit filename="../p20_pi4.pro" />
+		<Unit filename="../painter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../receiver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../server.h" />
+		<Unit filename="../shared.h" />
+		<Unit filename="../softgpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../softgpio.h" />
+		<Unit filename="../threads.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../threads.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

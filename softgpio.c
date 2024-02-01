@@ -45,6 +45,24 @@ int wiringPiSetup( void )
     return 0;
 }
 
+int wiringPiSetupGpio( void )
+{
+    char source[128];
+    int i;
+    Q_getwd(source);
+    for(i=0; i<14; i++)
+
+    {
+        /*
+        strcpy(filepath[i], source);
+        sprintf (filepath[i] + strlen(filepath[i]),"pin%d.bin", i);
+        */
+        sprintf (filepath[i],"pin%d.bin", i);
+    }
+
+    return 0;
+}
+
 void pinMode(int pin, int mode)
 {
     softgpio_t default_value;

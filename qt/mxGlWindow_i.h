@@ -48,13 +48,14 @@ public slots:
 
 		event.event = mxEvent::Idle;
 		d_GlWindow->handleEvent (&event);
-		//update();
+        update();
 	}
 
 protected:
 	virtual void paintGL ()
 	{
 		d_GlWindow->draw ();
+        update();
 	}
 
 	virtual void resizeGL (int w, int h)
@@ -171,6 +172,6 @@ protected:
 		mxEvent event;
 		event.event = mxEvent::Timer;
 		d_GlWindow->handleEvent (&event);
-		//update();
+        //update();
 	}
 };

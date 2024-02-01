@@ -46,23 +46,23 @@ int glpainter_main(){
 //	mx_setcwd (mx::getApplicationPath ());      //fix me
 
 	//mx::setDisplayMode (0, 0, 0);
-	mx::init (0, 0);
+    mx::init (mxargc, mxargv);
 
     g_SDWindow = new SDWindow ();
-	g_SDWindow->setMenuBar (g_SDWindow->getMenuBar ());
-	g_SDWindow->setBounds (20, 20, 640, 540);
-	g_SDWindow->setVisible (true);
+    g_SDWindow->setMenuBar (g_SDWindow->getMenuBar ());
+    g_SDWindow->setBounds (20, 20, 640, 540);
+    g_SDWindow->setVisible (true);
 
     g_RCWindow = new RCWindow ();
-//	g_RCWindow->setMenuBar (g_RCWindow->getMenuBar ());
-	g_RCWindow->setBounds (120, 20, 640, 540);
-	g_RCWindow->setVisible (true);
+    g_RCWindow->setMenuBar (g_RCWindow->getMenuBar ());
+    g_RCWindow->setBounds (120, 20, 640, 540);
+    g_RCWindow->setVisible (true);
 
-	int ret = mx::run ();
+    int ret = mx::run ();
 
-	mx::cleanup ();
+    mx::cleanup ();
 
-	return ret;
+    return ret;
 
 }
 

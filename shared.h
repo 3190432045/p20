@@ -33,8 +33,8 @@ extern "C"
 
 
 #define	BUFFER_SIZE     32  /* size must be 2 ^ n */
-#define	BAUD_RATE       50 /* This is timespan not rate */
-#define _SCAN_TIME_SPAN BAUD_RATE / 10
+#define	BAUD_RATE       10 /* This is timespan not rate */
+#define _SCAN_TIME_SPAN (BAUD_RATE / 10)
 
 #define	MAX_MSG_LENGTH  (BUFFER_SIZE - 4)  /* BUFFER_SIZE - 4 */
 
@@ -47,11 +47,11 @@ extern "C"
 #endif
 
 #ifdef _SERVER
-#define	TX              0
-#define	RX              1
+#define	TX              4
+#define	RX              17
 #else
-#define	TX              1
-#define	RX              0
+#define	TX              17
+#define	RX              4
 #endif /*// _SERVER*/
 
 extern int flag_sender_ready;
